@@ -15,7 +15,9 @@ ai-tech-digest/
 ├── index.html          # 網站首頁（GitHub Pages 從 repo 根目錄服務）
 ├── hub.yaml            # 給 hub 首頁的設定（外部連結卡片）
 ├── reports/            # 報告（markdown）
-│   └── 2026-10-26-baseline.md
+│   ├── 2026-10-26-baseline.md            # 基準報告
+│   ├── 2026-10-26-papers.md              # 87 篇 arXiv 論文逐篇摘要
+│   └── 2026-10-26-vendors-frameworks.md  # 廠商 + 框架版本動態
 ├── data/               # 原始抓取資料（JSON）
 │   ├── arxiv-papers.json
 │   ├── github-releases.json
@@ -86,6 +88,16 @@ python3 scripts/fetch_chatart.py
 - **`minimax-m3.1-flash` 存在於 Ollama 官方 library**（本機 config 當時仍指向 M3）
 - **GGUF 佔 HuggingFace 熱門模型量化變體的 32.4%**，MLX 5.4%、NVFP4 3.3%、FP8 1.5%
 - **Qwen3.8-27B 的社群 fine-tune（`HauhauCS/...-Aggressive-MTP-GGUF`）下載 231 萬**，但 `unsloth/Qwen3.8-27B-GGUF` 官方路徑 586 萬更高
+- **llama.cpp 已改用滾動式 `b<build>` prerelease**，不再發 semver tag
+- **`exo` 與 `llamafile` 實質停滯** — release 分別停在 2026-04 與 2026-09，近期 commit 僅動 UI
+- **`Mozilla-Ocho/llamafile` 與 `comfyanonymous/ComfyUI` 已 301 重導**到新 owner，API 呼叫需開 `-L` 跟隨
+- **低精度 KV cache 已是預設路徑** — vLLM 讓 NVFP4 走遍 SM8x/12x/90，GLM-5.x 在 SM100 預設 FP8
+
+## 已知限制
+
+- **PAT 缺 `workflow` scope** — `.github/workflows/` 無法推送，所以「每月自動檢查資料新鮮度」未啟用。Pages 用 legacy build（main 根目錄），不受影響。
+- **引用數幾乎全為 0** — 這批論文都是 2026-09/10 新文，Semantic Scholar 尚未建立引用索引。報告中的排序依據是「技術貢獻實質性」而非引用數。
+- **Ollama API 回傳固定 23 個 trending 集合** — `sort` 參數不影響排序，抓取到的就是首頁那份清單。
 
 ## 授權
 
