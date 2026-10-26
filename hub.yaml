@@ -1,0 +1,77 @@
+# hub.yaml — 給 Kilroy's Hub 首頁的設定
+#
+# 這個 repo（ai-tech-digest）是獨立網站，hub 只放一個 external 卡片指向它。
+# 依 hub.yaml 的設計原則：section 連結用絕對 URL，兩個 repo 互不干擾。
+#
+# 產生首頁：
+#   python3 .hermes/skills/hub/scripts/hub.py build --repo kilroy-utb/hub
+
+title: "Kilroy's Hub"
+subtitle: "個人知識、漫畫、財經、待辦的入口"
+theme: "light"
+accent: "#1976d2"
+
+pages_base: "https://kilroy-utb.github.io/hub"
+
+external_pages:
+  knowledge_base: "https://kilroy-utb.github.io/knowledge_base"
+  ai_tech_digest: "https://kilroy-utb.github.io/ai-tech-digest"
+
+sections:
+  - title: "Wiki 知識庫"
+    icon: "📖"
+    desc: "自建的 markdown wiki"
+    type: wiki
+    url: "https://kilroy-utb.github.io/hub/wiki/"
+    badge_source:
+      local: "wiki"
+
+  - title: "財經筆記"
+    icon: "💰"
+    desc: "持股追蹤、研究筆記、TSLA/0050 等"
+    type: wiki
+    url: "https://kilroy-utb.github.io/hub/wiki/finance/"
+    badge_source:
+      local: "wiki/finance"
+
+  - title: "AI 技術統整"
+    icon: "🤖"
+    desc: "模型進展、Local LLM、Agent 與 Skill 生態"
+    type: external
+    url: "https://kilroy-utb.github.io/ai-tech-digest"
+
+  - title: "Todo"
+    icon: "✅"
+    desc: "待辦清單與進行中項目"
+    type: todo
+    url: "https://kilroy-utb.github.io/hub/todo/"
+    badge_source:
+      local: "todo"
+
+  - title: "雜項筆記"
+    icon: "📝"
+    desc: "什麼都先丟這裡"
+    type: wiki
+    url: "https://kilroy-utb.github.io/hub/notes/"
+    badge_source:
+      local: "notes"
+
+  - title: "檔案下載"
+    icon: "📎"
+    desc: "PDF、CSV、圖片等非 markdown 檔案"
+    type: file
+    url: "https://kilroy-utb.github.io/hub/files/"
+    badge_source:
+      local: "files"
+
+  - title: "k_gen GitHub Repo"
+    icon: "🔗"
+    desc: "原始檔案與所有 commit（漫畫 repo）"
+    type: external
+    url: "https://github.com/kilroy-utb/knowledge_base"
+
+  - title: "ai-tech-digest Repo"
+    icon: "📊"
+    desc: "原始資料與抓取腳本（AI 技術統整）"
+    type: external
+    url: "https://github.com/kilroy-utb/ai-tech-digest"

@@ -1,0 +1,214 @@
+{
+  "_source": "ollama.com/api/tags",
+  "_fetched_at": "2026-10-26T07:25:40.098273+00:00",
+  "models": [
+    {
+      "name": "glm-5.2",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-06-16T08:00:00-07:00"
+    },
+    {
+      "name": "minimax-m3.1-flash",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-19T09:00:00-07:00"
+    },
+    {
+      "name": "nemotron-3-ultra",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-06-04T00:00:00Z"
+    },
+    {
+      "name": "beam",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-16T06:00:00-07:00"
+    },
+    {
+      "name": "muse-spark-open",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-15T09:00:00Z"
+    },
+    {
+      "name": "minimax-m3",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-06-01T00:00:00Z"
+    },
+    {
+      "name": "mistral-large-4",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-06T06:00:00-07:00"
+    },
+    {
+      "name": "gpt-oss:20b",
+      "size_bytes": 13780162412,
+      "size_gb": 13.8,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2025-08-05T00:00:00Z"
+    },
+    {
+      "name": "nemotron-3-nano:30b",
+      "size_bytes": 32645090390,
+      "size_gb": 32.6,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2025-12-15T00:00:00Z"
+    },
+    {
+      "name": "clef:27b",
+      "size_bytes": 54969731792,
+      "size_gb": 55.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-04T09:00:00-07:00"
+    },
+    {
+      "name": "gemma4:31b",
+      "size_bytes": 62546177752,
+      "size_gb": 62.5,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-04-02T09:00:00-08:00"
+    },
+    {
+      "name": "gpt-oss:120b",
+      "size_bytes": 65290180781,
+      "size_gb": 65.3,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2025-08-05T00:00:00Z"
+    },
+    {
+      "name": "nemotron-3-super",
+      "size_bytes": 230500000000,
+      "size_gb": 230.5,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-03-11T00:00:00Z"
+    },
+    {
+      "name": "glm-5.3-flash",
+      "size_bytes": 328250014584,
+      "size_gb": 328.3,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-08-26T07:00:00-07:00"
+    },
+    {
+      "name": "minimax-m2.7",
+      "size_bytes": 480836588544,
+      "size_gb": 480.8,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-03-18T00:00:00Z"
+    },
+    {
+      "name": "deepseek-v4.1-flash",
+      "size_bytes": 486723007816,
+      "size_gb": 486.7,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-09-10T03:00:00Z"
+    },
+    {
+      "name": "deepseek-v4.1-flash:1017",
+      "size_bytes": 486723007816,
+      "size_gb": 486.7,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-10-17T03:00:00-07:00"
+    },
+    {
+      "name": "kimi-k2.7-code",
+      "size_bytes": 595148192736,
+      "size_gb": 595.1,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-06-12T00:00:00Z"
+    },
+    {
+      "name": "kimi-k2.6",
+      "size_bytes": 595148192736,
+      "size_gb": 595.1,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-04-20T00:00:00Z"
+    },
+    {
+      "name": "mistral-large-3:675b",
+      "size_bytes": 682000000000,
+      "size_gb": 682.0,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2025-12-02T00:00:00Z"
+    },
+    {
+      "name": "glm-5.3",
+      "size_bytes": 755433728000,
+      "size_gb": 755.4,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-08-28T08:00:00-07:00"
+    },
+    {
+      "name": "deepseek-v4-pro:0813",
+      "size_bytes": 892744322880,
+      "size_gb": 892.7,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-08-13T08:00:00-07:00"
+    },
+    {
+      "name": "kimi-k3",
+      "size_bytes": 1560860324864,
+      "size_gb": 1560.9,
+      "pulls": null,
+      "description": "",
+      "tags": [],
+      "modified_at": "2026-07-27T08:00:00-07:00"
+    }
+  ],
+  "note": "Ollama API 回傳固定 23 個 trending 集合，sort 參數不影響排序。"
+}

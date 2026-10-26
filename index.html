@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 技術統整 — ai-tech-digest</title>
+<meta name="description" content="模型進展、Local LLM、Agent 與 Skill 生態的技術統整與追蹤。">
+<style>
+  :root {
+    --bg:#fafafa; --fg:#1a1a1a; --card:#fff; --border:#e3e3e3; --muted:#666;
+    --accent:#1976d2; --accent-soft:#e3f2fd; --code-bg:#f5f5f5;
+  }
+  [data-theme="dark"] {
+    --bg:#111; --fg:#e5e5e5; --card:#1b1b1b; --border:#2e2e2e; --muted:#999;
+    --accent:#64b5f6; --accent-soft:#16324a; --code-bg:#1f1f1f;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+    line-height:1.7;
+  }
+  .wrap { max-width:960px; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  header { border-bottom:2px solid var(--border); padding-bottom:1.5rem; margin-bottom:2rem; }
+  h1 { margin:0 0 .4rem; font-size:2rem; letter-spacing:-.02em; }
+  .sub { color:var(--muted); margin:0; font-size:.95rem; }
+  .meta { color:var(--muted); font-size:.8rem; margin-top:.8rem; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .theme-btn {
+    position:fixed; top:1rem; right:1rem; background:var(--card); color:var(--fg);
+    border:1px solid var(--border); border-radius:8px; padding:.45rem .7rem;
+    cursor:pointer; font-size:.9rem; box-shadow:0 1px 4px rgba(0,0,0,.08);
+  }
+  h2 { font-size:1.25rem; margin:2.5rem 0 1rem; padding-bottom:.4rem; border-bottom:1px solid var(--border); }
+  .grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); }
+  .card {
+    display:block; background:var(--card); border:1px solid var(--border);
+    border-radius:12px; padding:1.1rem 1.25rem; text-decoration:none; color:inherit;
+    transition:transform .12s, box-shadow .12s, border-color .12s;
+  }
+  .card:hover { transform:translateY(-2px); box-shadow:0 4px 16px rgba(0,0,0,.08); border-color:var(--accent); }
+  .card h3 { margin:0 0 .35rem; font-size:1.02rem; display:flex; align-items:center; gap:.45rem; }
+  .card p { margin:0; color:var(--muted); font-size:.87rem; }
+  .tag {
+    display:inline-block; font-size:.7rem; padding:.12rem .45rem; border-radius:5px;
+    background:var(--accent-soft); color:var(--accent); font-weight:600; letter-spacing:.02em;
+  }
+  table { width:100%; border-collapse:collapse; font-size:.87rem; margin:1rem 0; }
+  th,td { padding:.5rem .7rem; text-align:left; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; }
+  td.num { text-align:right; font-family:ui-monospace,Menlo,monospace; white-space:nowrap; }
+  code { background:var(--code-bg); padding:.1rem .35rem; border-radius:4px; font-size:.85em; font-family:ui-monospace,Menlo,monospace; }
+  pre { background:var(--code-bg); padding:1rem; border-radius:8px; overflow-x:auto; font-size:.82rem; border:1px solid var(--border); }
+  pre code { background:none; padding:0; }
+  a { color:var(--accent); }
+  .note { background:var(--accent-soft); border-left:3px solid var(--accent); padding:.85rem 1rem; border-radius:0 8px 8px 0; font-size:.9rem; margin:1.2rem 0; }
+  .empty { color:var(--muted); font-style:italic; padding:1.5rem 0; }
+  footer { margin-top:4rem; padding-top:1.5rem; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; }
+  footer a { color:var(--muted); }
+  .src-list { font-size:.85rem; }
+  .src-list li { margin:.35rem 0; }
+</style>
+</head>
+<body>
+<button class="theme-btn" onclick="toggleTheme()">◐</button>
+<div class="wrap">
+
+<header>
+  <h1>AI 技術統整</h1>
+  <p class="sub">模型進展 · Local LLM · Agent 與 Skill 生態</p>
+  <p class="meta" id="buildtime"></p>
+</header>
+
+<h2>報告</h2>
+<div class="grid" id="reports">
+  <div class="empty">報告產生中…</div>
+</div>
+
+<h2>追蹤主題</h2>
+<div class="grid">
+  <a class="card" href="./reports/2026-10-26-baseline.md">
+    <h3>📊 基準報告</h3>
+    <p>2026-10-26 首次完整統整 — 模型、量化、推論框架、Agent 生態</p>
+  </a>
+  <a class="card" href="./data/">
+    <h3>💾 原始資料</h3>
+    <p>抓取到的 JSON 原始資料，可重跑驗證</p>
+  </a>
+  <a class="card" href="./scripts/">
+    <h3>🔧 抓取腳本</h3>
+    <p>arXiv / GitHub / HuggingFace / Ollama 的可重跑抓取程式</p>
+  </a>
+</div>
+
+<h2>資料來源分層</h2>
+<div class="note">
+  <strong>Tier A — 直接問官方端點（可信度最高）</strong><br>
+  arXiv API、GitHub Releases、HuggingFace API、Ollama registry、各廠商 changelog、ChatArt 訊息中心 API。
+</div>
+<div class="note">
+  <strong>Tier B — 社群訊號（需標註為社群說法）</strong><br>
+  X / Reddit / Hacker News / YouTube。<em>需自行判斷，不作為主要依據。</em>
+</div>
+<div class="note">
+  <strong>Tier C — 需人工提供</strong><br>
+  私密社群、限時動態、付費內容。由使用者貼上後再分析。
+</div>
+
+<h2>本機實測</h2>
+<table>
+  <thead><tr><th>項目</th><th>狀態</th><th>備註</th></tr></thead>
+  <tbody>
+    <tr><td>GX10 / Ollama</td><td><span class="tag">qwen3:32b</span></td><td>遠端推論，透過 Tailscale SSH tunnel</td></tr>
+    <tr><td>ComfyUI</td><td><span class="tag">SDXL Turbo</span></td><td>本機生圖</td></tr>
+    <tr><td>ChatArt API</td><td><span class="tag">正常</span></td><td>圖像 / 影片 / 音樂生成</td></tr>
+  </tbody>
+</table>
+
+<h2>抓取腳本</h2>
+<pre><code># 重新抓取所有來源
+bash scripts/fetch-all.sh
+
+# 單獨抓某個來源
+python3 scripts/fetch_huggingface.py
+python3 scripts/fetch_github_releases.py
+python3 scripts/fetch_arxiv.py
+python3 scripts/fetch_ollama.py
+python3 scripts/fetch_chatart.py</code></pre>
+
+<footer>
+  <p>
+    資料來源與抓取時間戳記於各報告內。原始資料存放於 <code>data/</code>，抓取邏輯於 <code>scripts/</code>。<br>
+    本頁由 <a href="https://github.com/kilroy-utb/ai-tech-digest">kilroy-utb/ai-tech-digest</a> 產生 ·
+    整合於 <a href="https://kilroy-utb.github.io/hub/">Kilroy's Hub</a>
+  </p>
+</footer>
+
+</div>
+<script>
+function toggleTheme(){
+  const el=document.documentElement;
+  const next=el.getAttribute('data-theme')==='dark'?'light':'dark';
+  el.setAttribute('data-theme',next);
+  localStorage.setItem('theme',next);
+}
+(function(){
+  const saved=localStorage.getItem('theme');
+  if(saved) document.documentElement.setAttribute('data-theme',saved);
+  const bt=document.getElementById('buildtime');
+  if(bt) bt.textContent='骨架建立於 2026-10-26 (GMT+8)';
+})();
+</script>
+</body>
+</html>

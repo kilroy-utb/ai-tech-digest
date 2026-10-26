@@ -1,0 +1,57 @@
+name: Validate data freshness
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 每月 1 號 UTC 早上 3 點檢查一次資料是否過期
+    - cron: '17 3 1 * *'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check data files exist and are recent
+        run: |
+          echo "=== data/ ==="
+          ls -la data/ || true
+          echo
+          echo "=== age of each file (days) ==="
+          python3 - <<'PY'
+          import json, os, glob, datetime
+          now = datetime.datetime.now(datetime.timezone.utc)
+          for p in sorted(glob.glob("data/*.json")):
+              try:
+                  d = json.load(open(p, encoding="utf-8"))
+              except Exception as e:
+                  print(f"  {p:<40} PARSE ERROR: {e}")
+                  continue
+              ts = d.get("_fetched_at")
+              if ts:
+                  age = (now - datetime.datetime.fromisoformat(ts)).days
+                  flag = "STALE" if age > 45 else "ok"
+                  print(f"  {p:<40} {age:>3} days  [{flag}]")
+              else:
+                  print(f"  {p:<40} no _fetched_at")
+          PY
+
+      - name: Re-fetch and check for drift
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/check
+          python3 scripts/fetch_huggingface.py /tmp/check || true
+          python3 scripts/fetch_ollama.py /tmp/check || true
+          if [ -f /tmp/check/huggingface-models.json ]; then
+            echo "re-fetch OK — data/ 可以用 bash scripts/fetch-all.sh 更新"
+            ls -la /tmp/check/
+          fi

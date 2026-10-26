@@ -1,0 +1,7842 @@
+{
+  "_source": "huggingface.co/api/models",
+  "_fetched_at": "2026-10-26T07:25:20.309026+00:00",
+  "orgs": {
+    "Qwen": {
+      "label": "阿里 Qwen",
+      "models": [
+        {
+          "id": "Qwen/Qwen3-0.6B",
+          "downloads": 23833726,
+          "likes": 1851,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-4B",
+          "downloads": 11268043,
+          "likes": 772,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-14B",
+          "downloads": 10428928,
+          "likes": 521,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Embedding-0.6B",
+          "downloads": 8188031,
+          "likes": 1310,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-8B",
+          "downloads": 8114096,
+          "likes": 2146,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.8-27B",
+          "downloads": 7762014,
+          "likes": 18416,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-4B",
+          "downloads": 7430684,
+          "likes": 1130,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-9B",
+          "downloads": 6085485,
+          "likes": 2245,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-7B-Instruct",
+          "downloads": 5732337,
+          "likes": 2458,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-8B-Instruct",
+          "downloads": 5518605,
+          "likes": 1224,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-0.5B-Instruct",
+          "downloads": 5222609,
+          "likes": 713,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-VL-7B-Instruct",
+          "downloads": 5133806,
+          "likes": 1754,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "downloads": 4590606,
+          "likes": 913,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.8-27B-FP8",
+          "downloads": 4390238,
+          "likes": 945,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-1.7B",
+          "downloads": 4092300,
+          "likes": 594,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.6-35B-A3B",
+          "downloads": 3971758,
+          "likes": 3033,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "downloads": 3830098,
+          "likes": 438,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-4B-Instruct",
+          "downloads": 3796825,
+          "likes": 511,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-3B-Instruct",
+          "downloads": 3609164,
+          "likes": 621,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-0.8B",
+          "downloads": 3458633,
+          "likes": 786,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-2B",
+          "downloads": 3125364,
+          "likes": 455,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.8-Flash-Next",
+          "downloads": 3093369,
+          "likes": 6484,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+          "downloads": 2989385,
+          "likes": 577,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-32B",
+          "downloads": 2901666,
+          "likes": 772,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-4B-Instruct-2507",
+          "downloads": 2577859,
+          "likes": 1029,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-14B-AWQ",
+          "downloads": 2448992,
+          "likes": 88,
+          "last_modified": "",
+          "quant": "AWQ",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "awq"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.6-27B",
+          "downloads": 2392211,
+          "likes": 2338,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Reranker-4B",
+          "downloads": 2216005,
+          "likes": 187,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-8B-AWQ",
+          "downloads": 2157418,
+          "likes": 68,
+          "last_modified": "",
+          "quant": "AWQ",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "awq"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+          "downloads": 1966004,
+          "likes": 60,
+          "last_modified": "",
+          "quant": "AWQ",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "awq"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Embedding-8B",
+          "downloads": 1961301,
+          "likes": 840,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+          "downloads": 1914864,
+          "likes": 2176,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Embedding-4B",
+          "downloads": 1840188,
+          "likes": 342,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-2B-Instruct",
+          "downloads": 1776668,
+          "likes": 505,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+          "downloads": 1776211,
+          "likes": 206,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-27B",
+          "downloads": 1734331,
+          "likes": 1074,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+          "downloads": 1681921,
+          "likes": 118,
+          "last_modified": "",
+          "quant": "AWQ",
+          "tags": [
+            "safetensors",
+            "conversational",
+            "awq"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-VL-3B-Instruct",
+          "downloads": 1636755,
+          "likes": 737,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Reranker-0.6B",
+          "downloads": 1595032,
+          "likes": 427,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-35B-A3B",
+          "downloads": 1476096,
+          "likes": 1546,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "meta-llama": {
+      "label": "Meta Llama",
+      "models": [
+        {
+          "id": "meta-llama/Llama-3.1-8B-Instruct",
+          "downloads": 4833514,
+          "likes": 8610,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-1B-Instruct",
+          "downloads": 3488705,
+          "likes": 1893,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Prompt-Guard-86M",
+          "downloads": 2416595,
+          "likes": 428,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-3B-Instruct",
+          "downloads": 1106217,
+          "likes": 2879,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-8B",
+          "downloads": 602534,
+          "likes": 2693,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-1B",
+          "downloads": 534994,
+          "likes": 2723,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-405B-FP8",
+          "downloads": 463039,
+          "likes": 124,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-7b-hf",
+          "downloads": 409162,
+          "likes": 2475,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+          "downloads": 340477,
+          "likes": 5568,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.3-70B-Instruct",
+          "downloads": 300174,
+          "likes": 3163,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-3B",
+          "downloads": 234396,
+          "likes": 1057,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-13b-chat-hf",
+          "downloads": 173052,
+          "likes": 1135,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-7b-chat-hf",
+          "downloads": 137200,
+          "likes": 4924,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "downloads": 133972,
+          "likes": 1379,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-8B",
+          "downloads": 133144,
+          "likes": 6767,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Prompt-Guard-2-86M",
+          "downloads": 101763,
+          "likes": 316,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-70B-Instruct",
+          "downloads": 89815,
+          "likes": 1013,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-70B",
+          "downloads": 82180,
+          "likes": 884,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+          "downloads": 57014,
+          "likes": 1680,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "downloads": 42388,
+          "likes": 186,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Guard-4-12B",
+          "downloads": 42384,
+          "likes": 134,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-70B",
+          "downloads": 39389,
+          "likes": 444,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-70B-Instruct",
+          "downloads": 30992,
+          "likes": 1536,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-405B",
+          "downloads": 28921,
+          "likes": 992,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Guard-3-8B",
+          "downloads": 27379,
+          "likes": 343,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Guard-3-1B",
+          "downloads": 27199,
+          "likes": 133,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-70b-hf",
+          "downloads": 22405,
+          "likes": 856,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-13b-hf",
+          "downloads": 21065,
+          "likes": 657,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.2-11B-Vision",
+          "downloads": 12818,
+          "likes": 617,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+          "downloads": 9730,
+          "likes": 517,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-405B-Instruct",
+          "downloads": 9375,
+          "likes": 605,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Guard-3-8B-INT8",
+          "downloads": 9063,
+          "likes": 38,
+          "last_modified": "",
+          "quant": "INT8",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/CodeLlama-7b-Python-hf",
+          "downloads": 8403,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Prompt-Guard-2-22M",
+          "downloads": 6987,
+          "likes": 77,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "meta-llama/CodeLlama-13b-Instruct-hf",
+          "downloads": 4977,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-2-70b-chat-hf",
+          "downloads": 3715,
+          "likes": 2212,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/CodeLlama-34b-hf",
+          "downloads": 3688,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "meta-llama/LlamaGuard-7b",
+          "downloads": 2795,
+          "likes": 249,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/CodeLlama-7b-Instruct-hf",
+          "downloads": 2719,
+          "likes": 65,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Scout-17B-16E",
+          "downloads": 2283,
+          "likes": 277,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "NousResearch": {
+      "label": "Nous Research",
+      "models": [
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-8B",
+          "downloads": 463947,
+          "likes": 526,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+          "downloads": 138642,
+          "likes": 40,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-70B-FP8",
+          "downloads": 100744,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3.1-8B",
+          "downloads": 91853,
+          "likes": 18,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-2-7b-hf",
+          "downloads": 81611,
+          "likes": 178,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3-8B-Instruct",
+          "downloads": 79308,
+          "likes": 105,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Pro-Mistral-7B-GGUF",
+          "downloads": 68806,
+          "likes": 262,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3-8B",
+          "downloads": 52002,
+          "likes": 101,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3-70B-Instruct",
+          "downloads": 51829,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-3.2-1B",
+          "downloads": 43934,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-8B-GGUF",
+          "downloads": 39821,
+          "likes": 218,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4.3-36B-GGUF",
+          "downloads": 23209,
+          "likes": 95,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+          "downloads": 16517,
+          "likes": 460,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Theta-Llama-3-8B",
+          "downloads": 11787,
+          "likes": 207,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-2-7b-chat-hf",
+          "downloads": 11325,
+          "likes": 201,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-2-SOLAR-10.7B",
+          "downloads": 10311,
+          "likes": 210,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-2-Yi-34B",
+          "downloads": 8901,
+          "likes": 266,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.2-3B-GGUF",
+          "downloads": 7523,
+          "likes": 75,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.2-3B",
+          "downloads": 5276,
+          "likes": 184,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4-14B",
+          "downloads": 4861,
+          "likes": 197,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-2-13b-hf",
+          "downloads": 3823,
+          "likes": 76,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Pro-Mistral-7B",
+          "downloads": 3572,
+          "likes": 509,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+          "downloads": 3327,
+          "likes": 455,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-2-13b-chat-hf",
+          "downloads": 3054,
+          "likes": 33,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF",
+          "downloads": 3034,
+          "likes": 93,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-llama-2-7b",
+          "downloads": 2805,
+          "likes": 71,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-Llama2-13b",
+          "downloads": 2668,
+          "likes": 322,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF",
+          "downloads": 2627,
+          "likes": 95,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4-14B-FP8",
+          "downloads": 2289,
+          "likes": 32,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3.1-70B-Instruct",
+          "downloads": 2162,
+          "likes": 13,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-70B",
+          "downloads": 2135,
+          "likes": 145,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-2-Theta-Llama-3-70B",
+          "downloads": 1916,
+          "likes": 83,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO-GGUF",
+          "downloads": 1907,
+          "likes": 76,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Yarn-Llama-2-7b-128k",
+          "downloads": 1846,
+          "likes": 41,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4-70B",
+          "downloads": 1844,
+          "likes": 225,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4.3-36B",
+          "downloads": 1746,
+          "likes": 308,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Meta-Llama-3.1-70B",
+          "downloads": 1695,
+          "likes": 7,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-70B-GGUF",
+          "downloads": 1580,
+          "likes": 54,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-4-405B",
+          "downloads": 1518,
+          "likes": 97,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "NousResearch/Llama-2-70b-chat-hf",
+          "downloads": 1478,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        }
+      ]
+    },
+    "mistralai": {
+      "label": "Mistral",
+      "models": [
+        {
+          "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+          "downloads": 2041370,
+          "likes": 1046,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-7B-Instruct-v0.2",
+          "downloads": 1795603,
+          "likes": 3271,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-7B-Instruct-v0.3",
+          "downloads": 1724933,
+          "likes": 3813,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-7B-v0.1",
+          "downloads": 372023,
+          "likes": 4226,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+          "downloads": 249361,
+          "likes": 4774,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+          "downloads": 223802,
+          "likes": 1406,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+          "downloads": 195608,
+          "likes": 706,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+          "downloads": 181449,
+          "likes": 641,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-7B-v0.3",
+          "downloads": 180793,
+          "likes": 623,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Nemo-Instruct-2407",
+          "downloads": 178317,
+          "likes": 1737,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-14B-Reasoning-2512",
+          "downloads": 171570,
+          "likes": 172,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Nemo-Base-2407",
+          "downloads": 129867,
+          "likes": 371,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Voxtral-Mini-3B-2507",
+          "downloads": 128232,
+          "likes": 696,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-14B-Instruct-2512",
+          "downloads": 126480,
+          "likes": 349,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-7B-Instruct-v0.1",
+          "downloads": 116568,
+          "likes": 1873,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-3B-Instruct-2512",
+          "downloads": 87360,
+          "likes": 312,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-8B-Instruct-2512",
+          "downloads": 79382,
+          "likes": 231,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Small-24B-Instruct-2501",
+          "downloads": 75361,
+          "likes": 987,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Magistral-Small-2506",
+          "downloads": 67599,
+          "likes": 621,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-14B-Instruct-2512-BF16",
+          "downloads": 66526,
+          "likes": 49,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Small-4-119B-2603",
+          "downloads": 66186,
+          "likes": 458,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-8B-Instruct-2410",
+          "downloads": 57760,
+          "likes": 600,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+          "downloads": 54463,
+          "likes": 105,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Medium-3.5-128B",
+          "downloads": 51238,
+          "likes": 492,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-8B-Instruct-2512-GGUF",
+          "downloads": 47593,
+          "likes": 102,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+          "downloads": 47570,
+          "likes": 777,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mixtral-8x7B-v0.1",
+          "downloads": 40968,
+          "likes": 1845,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+          "downloads": 40820,
+          "likes": 48,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+          "downloads": 40334,
+          "likes": 41,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+          "downloads": 32811,
+          "likes": 91,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mistralai/Shieldstral-1.0-3B",
+          "downloads": 32110,
+          "likes": 309,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Magistral-Small-2509",
+          "downloads": 27066,
+          "likes": 315,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mamba-Codestral-7B-v0.1",
+          "downloads": 19324,
+          "likes": 629,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mixtral-8x22B-v0.1",
+          "downloads": 17889,
+          "likes": 248,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-3B-Reasoning-2512",
+          "downloads": 17782,
+          "likes": 140,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Voxtral-Small-24B-2507",
+          "downloads": 17245,
+          "likes": 553,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Ministral-3-8B-Reasoning-2512",
+          "downloads": 12514,
+          "likes": 116,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Large-Instruct-2407",
+          "downloads": 12351,
+          "likes": 869,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Mistral-Large-Instruct-2411",
+          "downloads": 10222,
+          "likes": 287,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "mistralai/Pixtral-12B-2409",
+          "downloads": 9807,
+          "likes": 717,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        }
+      ]
+    },
+    "deepseek-ai": {
+      "label": "DeepSeek",
+      "models": [
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2",
+          "downloads": 5592300,
+          "likes": 1587,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "downloads": 4112191,
+          "likes": 4091,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-OCR",
+          "downloads": 2072209,
+          "likes": 3459,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "downloads": 1640989,
+          "likes": 4742,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "downloads": 1485789,
+          "likes": 14410,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "downloads": 1431735,
+          "likes": 4451,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "downloads": 1274971,
+          "likes": 1646,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash",
+          "downloads": 936089,
+          "likes": 2348,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3-0324",
+          "downloads": 631701,
+          "likes": 3223,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-OCR-2",
+          "downloads": 529743,
+          "likes": 1146,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "downloads": 390093,
+          "likes": 191,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "downloads": 368848,
+          "likes": 706,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Pro",
+          "downloads": 360375,
+          "likes": 5678,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "downloads": 355790,
+          "likes": 1124,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+          "downloads": 349301,
+          "likes": 1660,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "downloads": 326391,
+          "likes": 958,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "downloads": 309108,
+          "likes": 945,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.1",
+          "downloads": 304391,
+          "likes": 863,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "downloads": 292391,
+          "likes": 727,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-0528",
+          "downloads": 161357,
+          "likes": 2490,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+          "downloads": 150272,
+          "likes": 900,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "downloads": 148485,
+          "likes": 308,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V2-Lite",
+          "downloads": 141573,
+          "likes": 209,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-vl2-tiny",
+          "downloads": 127455,
+          "likes": 270,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-6.7b-base",
+          "downloads": 110341,
+          "likes": 148,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "downloads": 109377,
+          "likes": 914,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "downloads": 85275,
+          "likes": 3041,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+          "downloads": 65262,
+          "likes": 172,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-Base",
+          "downloads": 48552,
+          "likes": 346,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "downloads": 39902,
+          "likes": 1024,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "downloads": 35993,
+          "likes": 822,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-1.3b-instruct",
+          "downloads": 34280,
+          "likes": 207,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V2-Chat",
+          "downloads": 29574,
+          "likes": 485,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "downloads": 28817,
+          "likes": 530,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-llm-7b-base",
+          "downloads": 25664,
+          "likes": 169,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "text-generation"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-moe-16b-chat",
+          "downloads": 24277,
+          "likes": 176,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-llm-7b-chat",
+          "downloads": 19702,
+          "likes": 246,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Pro-Base",
+          "downloads": 17067,
+          "likes": 352,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "fp8"
+          ]
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-1.3b-base",
+          "downloads": 16786,
+          "likes": 135,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "text-generation"
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "downloads": 12709,
+          "likes": 385,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        }
+      ]
+    },
+    "moonshotai": {
+      "label": "Moonshot/Kimi",
+      "models": [
+        {
+          "id": "moonshotai/Kimi-K3",
+          "downloads": 874512,
+          "likes": 11830,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.6",
+          "downloads": 353428,
+          "likes": 1636,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.5",
+          "downloads": 340246,
+          "likes": 2893,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Instruct",
+          "downloads": 325113,
+          "likes": 3007,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+          "downloads": 136030,
+          "likes": 611,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-VL-A3B-Instruct",
+          "downloads": 128940,
+          "likes": 284,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.7-Code",
+          "downloads": 89154,
+          "likes": 1424,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Thinking",
+          "downloads": 47155,
+          "likes": 1730,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Moonlight-16B-A3B-Instruct",
+          "downloads": 34068,
+          "likes": 209,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Instruct-0905",
+          "downloads": 27716,
+          "likes": 790,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Base",
+          "downloads": 20849,
+          "likes": 306,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "fp8"
+          ]
+        },
+        {
+          "id": "moonshotai/Moonlight-16B-A3B",
+          "downloads": 19843,
+          "likes": 118,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-VL-A3B-Thinking",
+          "downloads": 12135,
+          "likes": 455,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-Audio-7B-Instruct",
+          "downloads": 9986,
+          "likes": 421,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "moonshotai/MoonViT-SO-400M",
+          "downloads": 8431,
+          "likes": 97,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-VL-A3B-Thinking-2506",
+          "downloads": 7961,
+          "likes": 387,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-Linear-48B-A3B-Base",
+          "downloads": 3043,
+          "likes": 84,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-Dev-72B",
+          "downloads": 2139,
+          "likes": 392,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-Audio-7B",
+          "downloads": 254,
+          "likes": 97,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        }
+      ]
+    },
+    "google": {
+      "label": "Google",
+      "models": [
+        {
+          "id": "google/electra-base-discriminator",
+          "downloads": 31308093,
+          "likes": 217,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "google/vit-base-patch16-224",
+          "downloads": 14692823,
+          "likes": 1043,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-31B-it",
+          "downloads": 8432279,
+          "likes": 4206,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-4-26B-A4B-it",
+          "downloads": 8174541,
+          "likes": 1701,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E4B-it",
+          "downloads": 3990168,
+          "likes": 1777,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E2B-it",
+          "downloads": 2956124,
+          "likes": 1072,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/embeddinggemma-300m",
+          "downloads": 2303854,
+          "likes": 2061,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/timesfm-2.5-200m-pytorch",
+          "downloads": 1776360,
+          "likes": 279,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-12B-it",
+          "downloads": 1720062,
+          "likes": 1690,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-giant-opt-patch16-384",
+          "downloads": 1719230,
+          "likes": 56,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-base-patch16-224",
+          "downloads": 1643661,
+          "likes": 157,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/owlv2-base-patch16-ensemble",
+          "downloads": 1537196,
+          "likes": 147,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-base-patch16-naflex",
+          "downloads": 1123369,
+          "likes": 49,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip-base-patch16-224",
+          "downloads": 1073555,
+          "likes": 103,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/vit-base-patch16-224-in21k",
+          "downloads": 1027536,
+          "likes": 431,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+          "downloads": 991798,
+          "likes": 169,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-3-4b-it",
+          "downloads": 970319,
+          "likes": 1597,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-4-12B-it-qat-q4_0-gguf",
+          "downloads": 878896,
+          "likes": 369,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-4-12B-it-qat-w4a16-ct",
+          "downloads": 878782,
+          "likes": 72,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/timesfm-3.0-pytorch",
+          "downloads": 867414,
+          "likes": 989,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-3-1b-it",
+          "downloads": 839278,
+          "likes": 1270,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/flan-t5-base",
+          "downloads": 785565,
+          "likes": 1110,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip-so400m-patch14-384",
+          "downloads": 714894,
+          "likes": 703,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-so400m-patch14-384",
+          "downloads": 690278,
+          "likes": 119,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/diffusiongemma-26B-A4B-it",
+          "downloads": 633036,
+          "likes": 1312,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E4B",
+          "downloads": 550107,
+          "likes": 479,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-so400m-patch16-256",
+          "downloads": 537820,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/siglip2-base-patch16-256",
+          "downloads": 512392,
+          "likes": 26,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/fnet-base",
+          "downloads": 465498,
+          "likes": 23,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "google/medgemma-4b-it",
+          "downloads": 415640,
+          "likes": 1118,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/siglip2-so400m-patch16-naflex",
+          "downloads": 411377,
+          "likes": 102,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-31B-it-qat-w4a16-ct",
+          "downloads": 343012,
+          "likes": 97,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-3-27b-it",
+          "downloads": 341827,
+          "likes": 2058,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "downloads": 329716,
+          "likes": 883,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "google/byt5-small",
+          "downloads": 326657,
+          "likes": 112,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "google/gemma-4-26B-A4B-it-assistant",
+          "downloads": 321489,
+          "likes": 196,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E2B-it-qat-w4a16-ct",
+          "downloads": 319112,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-31B-it-assistant",
+          "downloads": 289412,
+          "likes": 342,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "google/flan-t5-small",
+          "downloads": 287672,
+          "likes": 509,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "google/gemma-4-E4B-it-qat-w4a16-ct",
+          "downloads": 280074,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "safetensors"
+          ]
+        }
+      ]
+    },
+    "openai": {
+      "label": "OpenAI",
+      "models": [
+        {
+          "id": "openai/clip-vit-base-patch32",
+          "downloads": 16773168,
+          "likes": 1270,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/clip-vit-large-patch14",
+          "downloads": 6241860,
+          "likes": 2134,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-large-v3-turbo",
+          "downloads": 5815543,
+          "likes": 3478,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "downloads": 5766151,
+          "likes": 5221,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "openai/whisper-small",
+          "downloads": 3778821,
+          "likes": 637,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-large-v3",
+          "downloads": 3507234,
+          "likes": 6694,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "downloads": 2871750,
+          "likes": 5440,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "openai/clip-vit-large-patch14-336",
+          "downloads": 2629053,
+          "likes": 326,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/whisper-base",
+          "downloads": 1661029,
+          "likes": 311,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/clip-vit-base-patch16",
+          "downloads": 1467101,
+          "likes": 182,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/whisper-tiny",
+          "downloads": 700902,
+          "likes": 471,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-medium",
+          "downloads": 349050,
+          "likes": 315,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/privacy-filter",
+          "downloads": 173449,
+          "likes": 1813,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-base.en",
+          "downloads": 157403,
+          "likes": 60,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-small.en",
+          "downloads": 153605,
+          "likes": 78,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-tiny.en",
+          "downloads": 151742,
+          "likes": 131,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-large-v2",
+          "downloads": 65424,
+          "likes": 1824,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-medium.en",
+          "downloads": 24144,
+          "likes": 68,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/whisper-large",
+          "downloads": 20667,
+          "likes": 568,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-20b",
+          "downloads": 18018,
+          "likes": 284,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "openai/shap-e",
+          "downloads": 8528,
+          "likes": 296,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-120b",
+          "downloads": 8517,
+          "likes": 120,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "openai/imagegpt-small",
+          "downloads": 6838,
+          "likes": 47,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/shap-e-img2img",
+          "downloads": 5419,
+          "likes": 66,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/circuit-sparsity",
+          "downloads": 1369,
+          "likes": 220,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "openai/imagegpt-large",
+          "downloads": 1237,
+          "likes": 54,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/consistency-decoder",
+          "downloads": 384,
+          "likes": 63,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/imagegpt-medium",
+          "downloads": 383,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/jukebox-5b-lyrics",
+          "downloads": 205,
+          "likes": 42,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/jukebox-1b-lyrics",
+          "downloads": 199,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-cd_imagenet64_l2",
+          "downloads": 65,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/diffusers-cd_bedroom256_l2",
+          "downloads": 51,
+          "likes": 15,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-cd_imagenet64_lpips",
+          "downloads": 46,
+          "likes": 9,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/diffusers-ct_cat256",
+          "downloads": 45,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-cd_bedroom256_lpips",
+          "downloads": 43,
+          "likes": 12,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-ct_bedroom256",
+          "downloads": 41,
+          "likes": 14,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-ct_imagenet64",
+          "downloads": 41,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "openai/diffusers-cd_cat256_l2",
+          "downloads": 30,
+          "likes": 12,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "openai/diffusers-cd_cat256_lpips",
+          "downloads": 29,
+          "likes": 12,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        }
+      ]
+    },
+    "nvidia": {
+      "label": "NVIDIA",
+      "models": [
+        {
+          "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+          "downloads": 4141067,
+          "likes": 671,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+          "downloads": 1614100,
+          "likes": 27,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+          "downloads": 1610886,
+          "likes": 140,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+          "downloads": 1449923,
+          "likes": 39,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+          "downloads": 1438724,
+          "likes": 835,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+          "downloads": 1338336,
+          "likes": 191,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "downloads": 1157713,
+          "likes": 373,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Gemma-4-26B-A4B-NVFP4",
+          "downloads": 1142470,
+          "likes": 166,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "nvfp4",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "downloads": 1090571,
+          "likes": 1235,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "gguf"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+          "downloads": 1026145,
+          "likes": 438,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/bigvgan_v2_44khz_128band_512x",
+          "downloads": 1002114,
+          "likes": 84,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "downloads": 985757,
+          "likes": 475,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Gemma-4-31B-IT-NVFP4",
+          "downloads": 915351,
+          "likes": 586,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "downloads": 861461,
+          "likes": 251,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Qwen3.6-27B-NVFP4",
+          "downloads": 783182,
+          "likes": 446,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/llama-nemotron-rerank-1b-v2",
+          "downloads": 607728,
+          "likes": 70,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/parakeet-tdt-0.6b-v3",
+          "downloads": 574427,
+          "likes": 1226,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "gguf"
+          ]
+        },
+        {
+          "id": "nvidia/Cosmos-Reason2-2B",
+          "downloads": 571428,
+          "likes": 340,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "downloads": 535065,
+          "likes": 455,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Qwen3.8-27B-NVFP4",
+          "downloads": 469071,
+          "likes": 215,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "fp8",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/dragon-multiturn-context-encoder",
+          "downloads": 394581,
+          "likes": 30,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/dragon-multiturn-query-encoder",
+          "downloads": 394481,
+          "likes": 66,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/LocateAnything-3B",
+          "downloads": 389968,
+          "likes": 3132,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "downloads": 372531,
+          "likes": 387,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "downloads": 362489,
+          "likes": 75,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/llama-nemotron-embed-1b-v2",
+          "downloads": 331640,
+          "likes": 72,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+          "downloads": 307126,
+          "likes": 39,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/segformer-b0-finetuned-ade-512-512",
+          "downloads": 287183,
+          "likes": 209,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/Qwen3.5-122B-A10B-NVFP4",
+          "downloads": 280201,
+          "likes": 62,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "nvfp4",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Nemotron-3-Embed-1B-BF16",
+          "downloads": 269120,
+          "likes": 171,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/NV-Embed-v2",
+          "downloads": 259156,
+          "likes": 524,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+          "downloads": 244933,
+          "likes": 367,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Kimi-K2-Thinking-NVFP4",
+          "downloads": 226639,
+          "likes": 40,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/Kimi-K2.5-NVFP4",
+          "downloads": 223704,
+          "likes": 92,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "downloads": 208094,
+          "likes": 529,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/canary-1b-v2",
+          "downloads": 206065,
+          "likes": 443,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "nvidia/parakeet-tdt-0.6b-v2",
+          "downloads": 182615,
+          "likes": 1582,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/GLM-5.2-NVFP4",
+          "downloads": 173197,
+          "likes": 328,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "nvidia/segformer-b2-finetuned-ade-512-512",
+          "downloads": 169460,
+          "likes": 15,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        },
+        {
+          "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "downloads": 152189,
+          "likes": 204,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors"
+          ]
+        }
+      ]
+    },
+    "unsloth": {
+      "label": "Unsloth",
+      "models": [
+        {
+          "id": "unsloth/Qwen3.8-27B-GGUF",
+          "downloads": 5857773,
+          "likes": 5342,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/MiniMax-H3-GGUF",
+          "downloads": 2218529,
+          "likes": 378,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen-Image-2.1-GGUF",
+          "downloads": 1548587,
+          "likes": 435,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/gemma-4-12b-it-GGUF",
+          "downloads": 1530343,
+          "likes": 931,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.8-27B-NVFP4",
+          "downloads": 1498176,
+          "likes": 524,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.5-9B-GGUF",
+          "downloads": 1387915,
+          "likes": 1033,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+          "downloads": 1292935,
+          "likes": 1723,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.5-4B-GGUF",
+          "downloads": 1239727,
+          "likes": 514,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+          "downloads": 1168714,
+          "likes": 1019,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Z-Image-Turbo-GGUF",
+          "downloads": 1063372,
+          "likes": 288,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+          "downloads": 1011275,
+          "likes": 1267,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
+          "downloads": 1007596,
+          "likes": 1249,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Llama-3.2-1B-Instruct",
+          "downloads": 1000990,
+          "likes": 108,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+          "downloads": 973321,
+          "likes": 880,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+          "downloads": 892007,
+          "likes": 130,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/GLM-5.3-Flash-GGUF",
+          "downloads": 831270,
+          "likes": 504,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Inkling-Small-GGUF",
+          "downloads": 721598,
+          "likes": 98,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Muse-Glimmer-30B-GGUF",
+          "downloads": 668094,
+          "likes": 577,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen-Image-Edit-2511-GGUF",
+          "downloads": 651133,
+          "likes": 644,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-35B-A3B-NVFP4",
+          "downloads": 624802,
+          "likes": 123,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-27B-NVFP4",
+          "downloads": 615064,
+          "likes": 286,
+          "last_modified": "",
+          "quant": "NVFP4",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen-Image-2.1-Turbo-GGUF",
+          "downloads": 554777,
+          "likes": 62,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/gpt-oss-20b-GGUF",
+          "downloads": 541146,
+          "likes": 890,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/gemma-4-E2B-it-qat-mobile-GGUF",
+          "downloads": 540467,
+          "likes": 47,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3-4B-GGUF",
+          "downloads": 504681,
+          "likes": 252,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/gemma-4-E4B-it-GGUF",
+          "downloads": 500762,
+          "likes": 670,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen-Image-2.1-FP8",
+          "downloads": 485590,
+          "likes": 48,
+          "last_modified": "",
+          "quant": "FP8",
+          "tags": [
+            "fp8"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+          "downloads": 455712,
+          "likes": 1176,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/gemma-4-E2B-it-GGUF",
+          "downloads": 433493,
+          "likes": 343,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.5-2B-GGUF",
+          "downloads": 404188,
+          "likes": 164,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/FLUX.2-klein-4B-GGUF",
+          "downloads": 395009,
+          "likes": 236,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3-VL-4B-Instruct-GGUF",
+          "downloads": 389934,
+          "likes": 78,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+          "downloads": 386339,
+          "likes": 221,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/LTX-2.3-GGUF",
+          "downloads": 381490,
+          "likes": 586,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/FLUX.2-klein-9B-GGUF",
+          "downloads": 378372,
+          "likes": 374,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "unsloth/Qwen3.6-27B-GGUF",
+          "downloads": 376308,
+          "likes": 970,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/inkling-GGUF",
+          "downloads": 369477,
+          "likes": 137,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/mistral-7b-v0.3-bnb-4bit",
+          "downloads": 367967,
+          "likes": 23,
+          "last_modified": "",
+          "quant": "4bit",
+          "tags": [
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "unsloth/GLM-5.3-GGUF",
+          "downloads": 358648,
+          "likes": 109,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "unsloth/Ornith-1.0-9B-GGUF",
+          "downloads": 348375,
+          "likes": 64,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "bartowski": {
+      "label": "bartowski",
+      "models": [
+        {
+          "id": "bartowski/MiMo-V2.6-Distill-Qwen-9B-GGUF",
+          "downloads": 983292,
+          "likes": 163,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-32B-Instruct-GGUF",
+          "downloads": 943067,
+          "likes": 91,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "downloads": 505990,
+          "likes": 426,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/endless-frontier_BigBang-v1-GGUF",
+          "downloads": 460843,
+          "likes": 36,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/thomsonreuters_Thomson-1.0-Small-GGUF",
+          "downloads": 316269,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen3.8-27B-GGUF",
+          "downloads": 293246,
+          "likes": 214,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Kwaipilot_KAT-Coder-V2.5-Dev-GGUF",
+          "downloads": 246497,
+          "likes": 143,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3-4B-GGUF",
+          "downloads": 234054,
+          "likes": 22,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-7B-Instruct-GGUF",
+          "downloads": 211937,
+          "likes": 85,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/google_gemma-4-E2B-it-GGUF",
+          "downloads": 194982,
+          "likes": 41,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+          "downloads": 181032,
+          "likes": 118,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3.6-35B-A3B-GGUF",
+          "downloads": 178176,
+          "likes": 168,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+          "downloads": 168471,
+          "likes": 251,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/gemma-2-27b-it-GGUF",
+          "downloads": 158914,
+          "likes": 175,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/kai-os_Grug-12B-GGUF",
+          "downloads": 156681,
+          "likes": 3,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-14B-Instruct-GGUF",
+          "downloads": 154220,
+          "likes": 74,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Llama-3.2-1B-Instruct-GGUF",
+          "downloads": 146964,
+          "likes": 184,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
+          "downloads": 123561,
+          "likes": 52,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "downloads": 123011,
+          "likes": 149,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3.5-4B-GGUF",
+          "downloads": 116238,
+          "likes": 70,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-0.5B-Instruct-GGUF",
+          "downloads": 108989,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/microsoft_Phi-4-mini-instruct-GGUF",
+          "downloads": 100541,
+          "likes": 52,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3-0.6B-GGUF",
+          "downloads": 95058,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen3.8-Flash-Next-GGUF",
+          "downloads": 81619,
+          "likes": 45,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+          "downloads": 77995,
+          "likes": 23,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-3B-Instruct-GGUF",
+          "downloads": 74940,
+          "likes": 36,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/NousResearch_Hermes-4-14B-GGUF",
+          "downloads": 73335,
+          "likes": 61,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/meta-llama_Llama-4-Scout-17B-16E-Instruct-old-GGUF",
+          "downloads": 67790,
+          "likes": 33,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+          "downloads": 67286,
+          "likes": 25,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/google_gemma-4-26B-A4B-it-GGUF",
+          "downloads": 66704,
+          "likes": 165,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "downloads": 63193,
+          "likes": 259,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF",
+          "downloads": 62224,
+          "likes": 30,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "downloads": 61377,
+          "likes": 74,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "downloads": 60781,
+          "likes": 332,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+          "downloads": 58391,
+          "likes": 203,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/TheDrummer_Artemis-31B-v1.2-GGUF",
+          "downloads": 58268,
+          "likes": 27,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Ling-3.0-tiny-GGUF",
+          "downloads": 55395,
+          "likes": 54,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF",
+          "downloads": 54888,
+          "likes": 39,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "bartowski/gemma-2-2b-it-GGUF",
+          "downloads": 54679,
+          "likes": 103,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "bartowski/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "downloads": 53122,
+          "likes": 77,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "lmstudio-community": {
+      "label": "LM Studio",
+      "models": [
+        {
+          "id": "lmstudio-community/Qwen3.8-27B-MLX-4bit",
+          "downloads": 3656750,
+          "likes": 113,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+          "downloads": 3505125,
+          "likes": 50,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+          "downloads": 3487987,
+          "likes": 38,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.8-27B-MLX-5bit",
+          "downloads": 3475592,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E4B-it-MLX-4bit",
+          "downloads": 1126907,
+          "likes": 35,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.8-27B-GGUF",
+          "downloads": 1110976,
+          "likes": 76,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E4B-it-MLX-8bit",
+          "downloads": 1095964,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+          "downloads": 1087263,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E4B-it-MLX-5bit",
+          "downloads": 1086576,
+          "likes": 6,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.5-9B-MLX-4bit",
+          "downloads": 634131,
+          "likes": 8,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.5-9B-MLX-8bit",
+          "downloads": 594596,
+          "likes": 3,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.5-9B-GGUF",
+          "downloads": 511393,
+          "likes": 75,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E4B-it-GGUF",
+          "downloads": 429462,
+          "likes": 72,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
+          "downloads": 337994,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-12B-it-MLX-4bit",
+          "downloads": 303052,
+          "likes": 7,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-27B-MLX-4bit",
+          "downloads": 296810,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-27B-MLX-8bit",
+          "downloads": 287168,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-12B-it-MLX-8bit",
+          "downloads": 286558,
+          "likes": 6,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-27B-MLX-6bit",
+          "downloads": 285400,
+          "likes": 3,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-27B-MLX-5bit",
+          "downloads": 285243,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-12B-it-MLX-6bit",
+          "downloads": 285028,
+          "likes": 2,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-12B-it-MLX-5bit",
+          "downloads": 284464,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-35B-A3B-MLX-4bit",
+          "downloads": 262469,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-35B-A3B-MLX-8bit",
+          "downloads": 245582,
+          "likes": 5,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-35B-A3B-MLX-6bit",
+          "downloads": 239565,
+          "likes": 4,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Bonsai-27B-GGUF",
+          "downloads": 233783,
+          "likes": 34,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+          "downloads": 233299,
+          "likes": 22,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E2B-it-MLX-4bit",
+          "downloads": 200514,
+          "likes": 4,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E2B-it-MLX-8bit",
+          "downloads": 191636,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E2B-it-MLX-5bit",
+          "downloads": 190989,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-E2B-it-MLX-6bit",
+          "downloads": 190886,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx"
+          ]
+        },
+        {
+          "id": "lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-MLX-4bit",
+          "downloads": 185240,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "mlx",
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/GLM-4.7-Flash-MLX-8bit",
+          "downloads": 168602,
+          "likes": 13,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-MLX-8bit",
+          "downloads": 163438,
+          "likes": 25,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "mlx",
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/GLM-4.7-Flash-MLX-6bit",
+          "downloads": 158257,
+          "likes": 10,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.5-4B-GGUF",
+          "downloads": 152861,
+          "likes": 32,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit",
+          "downloads": 145597,
+          "likes": 13,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-26B-A4B-it-MLX-8bit",
+          "downloads": 140550,
+          "likes": 4,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/Qwen3.6-35B-A3B-GGUF",
+          "downloads": 140172,
+          "likes": 33,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "lmstudio-community/gemma-4-26B-A4B-it-MLX-6bit",
+          "downloads": 139431,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "MLX",
+          "tags": [
+            "safetensors",
+            "mlx",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "ggml-org": {
+      "label": "llama.cpp 官方",
+      "models": [
+        {
+          "id": "ggml-org/Qwen3.8-27B-GGUF",
+          "downloads": 2263154,
+          "likes": 140,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/models-moved",
+          "downloads": 439821,
+          "likes": 14,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/embeddinggemma-300M-GGUF",
+          "downloads": 378105,
+          "likes": 52,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+          "downloads": 348249,
+          "likes": 96,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gpt-oss-20b-GGUF",
+          "downloads": 234538,
+          "likes": 186,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-3-1b-it-GGUF",
+          "downloads": 233559,
+          "likes": 54,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gpt-oss-120b-GGUF",
+          "downloads": 230668,
+          "likes": 81,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
+          "downloads": 189055,
+          "likes": 36,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-4-E2B-it-GGUF",
+          "downloads": 151023,
+          "likes": 94,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-4-E4B-it-GGUF",
+          "downloads": 125709,
+          "likes": 101,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3.6-35B-A3B-GGUF",
+          "downloads": 124967,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-1.7B-GGUF",
+          "downloads": 118444,
+          "likes": 14,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen2.5-Omni-7B-GGUF",
+          "downloads": 113131,
+          "likes": 26,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF",
+          "downloads": 109008,
+          "likes": 29,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen2.5-VL-3B-Instruct-GGUF",
+          "downloads": 103151,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/embeddinggemma-2-GGUF",
+          "downloads": 93234,
+          "likes": 54,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/test-model-router-download",
+          "downloads": 89172,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3.6-27B-GGUF",
+          "downloads": 79892,
+          "likes": 27,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-3-4b-it-GGUF",
+          "downloads": 79555,
+          "likes": 63,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen2.5-VL-7B-Instruct-GGUF",
+          "downloads": 77495,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/tinygemma3-GGUF",
+          "downloads": 76582,
+          "likes": 9,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-4-12B-it-GGUF",
+          "downloads": 72741,
+          "likes": 94,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Clef-Flash-GGUF",
+          "downloads": 71965,
+          "likes": 39,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/stories15M_MOE",
+          "downloads": 71038,
+          "likes": 8,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen2.5-Omni-3B-GGUF",
+          "downloads": 67609,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-Omni-30B-A3B-Instruct-GGUF",
+          "downloads": 60317,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3.5-0.8B-GGUF",
+          "downloads": 57068,
+          "likes": 26,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3.8-Flash-Next-GGUF",
+          "downloads": 54321,
+          "likes": 36,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Kev-4B-GGUF",
+          "downloads": 50886,
+          "likes": 29,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-0.6B-GGUF",
+          "downloads": 44646,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF",
+          "downloads": 42810,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/test-model-stories260K",
+          "downloads": 40831,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/Voxtral-Mini-3B-2507-GGUF",
+          "downloads": 40778,
+          "likes": 5,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/GLM-OCR-GGUF",
+          "downloads": 40109,
+          "likes": 116,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-TTS-12Hz-1.7B-Base-GGUF",
+          "downloads": 39832,
+          "likes": 24,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/SmolVLM2-2.2B-Instruct-GGUF",
+          "downloads": 39445,
+          "likes": 42,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/Qwen3-ASR-1.7B-GGUF",
+          "downloads": 38763,
+          "likes": 44,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/gemma-4-31B-it-GGUF",
+          "downloads": 35895,
+          "likes": 47,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "ggml-org/test-model-stories260K-infill",
+          "downloads": 34972,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "ggml-org/tinyopenjev-for-testing-gguf",
+          "downloads": 34443,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "mradermacher": {
+      "label": "mradermacher",
+      "models": [
+        {
+          "id": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
+          "downloads": 1683354,
+          "likes": 252,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+          "downloads": 779104,
+          "likes": 52,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+          "downloads": 653437,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Simplicio-27B-GGUF",
+          "downloads": 473888,
+          "likes": 2,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/AdaVaR-3B-GGUF",
+          "downloads": 398278,
+          "likes": 3,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-27B-Fable-5-Coding-Distilled-GGUF",
+          "downloads": 356948,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.5-9B-Kimi-k3-Distilled-GGUF",
+          "downloads": 315775,
+          "likes": 13,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/B1-9B-GGUF",
+          "downloads": 293049,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Hemmingway-1-GGUF",
+          "downloads": 234392,
+          "likes": 9,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-Flash-Next-Uncensored-i1-GGUF",
+          "downloads": 171432,
+          "likes": 40,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+          "downloads": 162162,
+          "likes": 56,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF",
+          "downloads": 106458,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF",
+          "downloads": 104890,
+          "likes": 62,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
+          "downloads": 87557,
+          "likes": 14,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF",
+          "downloads": 77546,
+          "likes": 203,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+          "downloads": 68824,
+          "likes": 4,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF",
+          "downloads": 63602,
+          "likes": 23,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/zeta-2.1-GGUF",
+          "downloads": 58374,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF",
+          "downloads": 57117,
+          "likes": 0,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-i1-GGUF",
+          "downloads": 52966,
+          "likes": 101,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-9B-heretic-uncensored-GGUF",
+          "downloads": 51312,
+          "likes": 21,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF",
+          "downloads": 49664,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF",
+          "downloads": 46444,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF",
+          "downloads": 46223,
+          "likes": 51,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen-3.8-27B-Uncensored-GGUF",
+          "downloads": 44699,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen2.5-VL-7B-Instruct-GGUF",
+          "downloads": 43531,
+          "likes": 6,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-27B-Heretic-JP-Roleplay-NSFW-DanbooruTags-i1-GGUF",
+          "downloads": 40371,
+          "likes": 17,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen2.5-VL-7B-Instruct-abliterated-GGUF",
+          "downloads": 39537,
+          "likes": 56,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/translategemma-4b-it-GGUF",
+          "downloads": 39523,
+          "likes": 67,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Llama-3.3-70B-Instruct-abliterated-GGUF",
+          "downloads": 38079,
+          "likes": 8,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF",
+          "downloads": 36216,
+          "likes": 38,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-GGUF",
+          "downloads": 35961,
+          "likes": 8,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/translategemma-12b-it-GGUF",
+          "downloads": 34235,
+          "likes": 22,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-Flash-Next-Uncensored-GGUF",
+          "downloads": 33421,
+          "likes": 25,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.5-9B-abliterated-GGUF",
+          "downloads": 33362,
+          "likes": 9,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/TerminalHorizon-122B-A10B-i1-GGUF",
+          "downloads": 32049,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-i1-GGUF",
+          "downloads": 31281,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-i1-GGUF",
+          "downloads": 30908,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.8-14B-Instruct-Turbo-GGUF",
+          "downloads": 30788,
+          "likes": 10,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "mradermacher/Qwen3.5-text-9B-NSFW-RP-RolePlay-i1-GGUF",
+          "downloads": 30776,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "HauhauCS": {
+      "label": "HauhauCS",
+      "models": [
+        {
+          "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+          "downloads": 2310117,
+          "likes": 2095,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 942905,
+          "likes": 4018,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 898788,
+          "likes": 1474,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+          "downloads": 787735,
+          "likes": 481,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 655725,
+          "likes": 2373,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+          "downloads": 381565,
+          "likes": 324,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 216634,
+          "likes": 678,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 123695,
+          "likes": 192,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 91540,
+          "likes": 1533,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 86917,
+          "likes": 361,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+          "downloads": 85750,
+          "likes": 197,
+          "last_modified": "",
+          "quant": "QAT",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced",
+          "downloads": 82470,
+          "likes": 304,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 59101,
+          "likes": 742,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 54934,
+          "likes": 168,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
+          "downloads": 39577,
+          "likes": 218,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3VL-8B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 33378,
+          "likes": 104,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 26081,
+          "likes": 368,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 23513,
+          "likes": 99,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Balanced",
+          "downloads": 9697,
+          "likes": 32,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive",
+          "downloads": 9678,
+          "likes": 48,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 7819,
+          "likes": 71,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive",
+          "downloads": 7303,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive",
+          "downloads": 7065,
+          "likes": 43,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3VL-8B-Uncensored-HauhauCS-Balanced",
+          "downloads": 6387,
+          "likes": 33,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Balanced",
+          "downloads": 4352,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM",
+          "downloads": 334,
+          "likes": 11,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "HauhauCS/Qwen3.5-35B-Optimized-HauhauCS-40",
+          "downloads": 0,
+          "likes": 30,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "huihui-ai": {
+      "label": "huihui-ai",
+      "models": [
+        {
+          "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+          "downloads": 2555277,
+          "likes": 1509,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+          "downloads": 733015,
+          "likes": 57,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+          "downloads": 352102,
+          "likes": 231,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+          "downloads": 333580,
+          "likes": 192,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
+          "downloads": 285819,
+          "likes": 62,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
+          "downloads": 265297,
+          "likes": 146,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
+          "downloads": 137608,
+          "likes": 134,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+          "downloads": 72193,
+          "likes": 161,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
+          "downloads": 66202,
+          "likes": 52,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF",
+          "downloads": 61085,
+          "likes": 100,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+          "downloads": 57143,
+          "likes": 223,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
+          "downloads": 54887,
+          "likes": 120,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-GLM-5.3-Flash-abliterated-GGUF",
+          "downloads": 45911,
+          "likes": 301,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-12B-it-qat-q4_0-unquantized-abliterated-GGUF",
+          "downloads": 45334,
+          "likes": 71,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Agents-A1-abliterated-GGUF",
+          "downloads": 35543,
+          "likes": 24,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+          "downloads": 35294,
+          "likes": 625,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-26B-A4B-it-qat-q4_0-unquantized-abliterated-GGUF",
+          "downloads": 32150,
+          "likes": 24,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+          "downloads": 29944,
+          "likes": 38,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Laguna-S-2.1-abliterated-GGUF",
+          "downloads": 28722,
+          "likes": 14,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-31B-it-qat-q4_0-unquantized-abliterated-GGUF",
+          "downloads": 28140,
+          "likes": 23,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwable-3.6-27b-abliterated-MTP-GGUF",
+          "downloads": 27677,
+          "likes": 34,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwable-3.6-27b-abliterated-GGUF",
+          "downloads": 27149,
+          "likes": 24,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated",
+          "downloads": 25710,
+          "likes": 220,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3-8B-abliterated-v2",
+          "downloads": 25321,
+          "likes": 70,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-GGUF",
+          "downloads": 23122,
+          "likes": 22,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated",
+          "downloads": 21144,
+          "likes": 41,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+          "downloads": 21137,
+          "likes": 93,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated",
+          "downloads": 20800,
+          "likes": 69,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-E4B-it-qat-q4_0-unquantized-abliterated-GGUF",
+          "downloads": 19111,
+          "likes": 28,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gpt-oss-20b-mxfp4-abliterated-v2",
+          "downloads": 18686,
+          "likes": 19,
+          "last_modified": "",
+          "quant": "MXFP4",
+          "tags": [
+            "safetensors",
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Qwen2.5-VL-3B-Instruct-abliterated",
+          "downloads": 18162,
+          "likes": 35,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
+          "downloads": 14217,
+          "likes": 30,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-NeoHorse-1-4B-abliterated-GGUF",
+          "downloads": 13528,
+          "likes": 20,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated",
+          "downloads": 12887,
+          "likes": 224,
+          "last_modified": "",
+          "quant": "BF16",
+          "tags": [
+            "safetensors",
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3.5-4B-abliterated",
+          "downloads": 11717,
+          "likes": 49,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated",
+          "downloads": 11659,
+          "likes": 117,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-12B-agentic-fable5-abliterated-GGUF",
+          "downloads": 10856,
+          "likes": 45,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui4-8B-A4B-GGUF",
+          "downloads": 10780,
+          "likes": 13,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-Kolibri-1-BF16-abliterated-GGUF",
+          "downloads": 8540,
+          "likes": 34,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "huihui-ai/Huihui-gemma-4-E2B-it-qat-q4_0-unquantized-abliterated-GGUF",
+          "downloads": 8505,
+          "likes": 16,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "conversational"
+          ]
+        }
+      ]
+    },
+    "JonathanColetti": {
+      "label": "JonathanColetti",
+      "models": [
+        {
+          "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+          "downloads": 2418970,
+          "likes": 1742,
+          "last_modified": "",
+          "quant": "GGUF",
+          "tags": [
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        {
+          "id": "JonathanColetti/Qwen3.8-27B-Uncensored",
+          "downloads": 40238,
+          "likes": 115,
+          "last_modified": "",
+          "quant": "base",
+          "tags": [
+            "safetensors",
+            "conversational"
+          ]
+        },
+        {
+          "id": "JonathanColetti/LiveWan",
+          "downloads": 0,
+          "likes": 1,
+          "last_modified": "",
+          "quant": "base",
+          "tags": []
+        }
+      ]
+    }
+  },
+  "gguf": [
+    {
+      "id": "unsloth/Qwen3.8-27B-GGUF",
+      "downloads": 5857773,
+      "likes": 5342,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B-FP8",
+      "downloads": 4390238,
+      "likes": 945,
+      "last_modified": "",
+      "quant": "FP8",
+      "tags": [
+        "safetensors",
+        "conversational",
+        "fp8"
+      ]
+    },
+    {
+      "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "downloads": 4141067,
+      "likes": 671,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "downloads": 3830098,
+      "likes": 438,
+      "last_modified": "",
+      "quant": "FP8",
+      "tags": [
+        "safetensors",
+        "conversational",
+        "fp8"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.8-27B-MLX-4bit",
+      "downloads": 3656750,
+      "likes": 113,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx",
+        "conversational"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+      "downloads": 3505125,
+      "likes": 50,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx",
+        "conversational"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "downloads": 3487987,
+      "likes": 38,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx",
+        "conversational"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.8-27B-MLX-5bit",
+      "downloads": 3475592,
+      "likes": 16,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx",
+        "conversational"
+      ]
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+      "downloads": 2555277,
+      "likes": 1509,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-14B-AWQ",
+      "downloads": 2448992,
+      "likes": 88,
+      "last_modified": "",
+      "quant": "AWQ",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational",
+        "awq"
+      ]
+    },
+    {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "downloads": 2418970,
+      "likes": 1742,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "downloads": 2310117,
+      "likes": 2095,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "ggml-org/Qwen3.8-27B-GGUF",
+      "downloads": 2263154,
+      "likes": 140,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/MiniMax-H3-GGUF",
+      "downloads": 2218529,
+      "likes": 378,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-8B-AWQ",
+      "downloads": 2157418,
+      "likes": 68,
+      "last_modified": "",
+      "quant": "AWQ",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational",
+        "awq"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+      "downloads": 1966004,
+      "likes": 60,
+      "last_modified": "",
+      "quant": "AWQ",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational",
+        "awq"
+      ]
+    },
+    {
+      "id": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
+      "downloads": 1683354,
+      "likes": 252,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+      "downloads": 1681921,
+      "likes": 118,
+      "last_modified": "",
+      "quant": "AWQ",
+      "tags": [
+        "safetensors",
+        "conversational",
+        "awq"
+      ]
+    },
+    {
+      "id": "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+      "downloads": 1614100,
+      "likes": 27,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+      "downloads": 1610886,
+      "likes": 140,
+      "last_modified": "",
+      "quant": "BF16",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen-Image-2.1-GGUF",
+      "downloads": 1548587,
+      "likes": 435,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf"
+      ]
+    },
+    {
+      "id": "unsloth/gemma-4-12b-it-GGUF",
+      "downloads": 1530343,
+      "likes": 931,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.8-27B-NVFP4",
+      "downloads": 1498176,
+      "likes": 524,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "downloads": 1438724,
+      "likes": 835,
+      "last_modified": "",
+      "quant": "BF16",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.5-9B-GGUF",
+      "downloads": 1387915,
+      "likes": 1033,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+      "downloads": 1338336,
+      "likes": 191,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "downloads": 1292935,
+      "likes": 1723,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.5-4B-GGUF",
+      "downloads": 1239727,
+      "likes": 514,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "downloads": 1168714,
+      "likes": 1019,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "downloads": 1157713,
+      "likes": 373,
+      "last_modified": "",
+      "quant": "BF16",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/Gemma-4-26B-A4B-NVFP4",
+      "downloads": 1142470,
+      "likes": 166,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "nvfp4",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "lmstudio-community/gemma-4-E4B-it-MLX-4bit",
+      "downloads": 1126907,
+      "likes": 35,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.8-27B-GGUF",
+      "downloads": 1110976,
+      "likes": 76,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "lmstudio-community/gemma-4-E4B-it-MLX-8bit",
+      "downloads": 1095964,
+      "likes": 20,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx"
+      ]
+    },
+    {
+      "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+      "downloads": 1087263,
+      "likes": 17,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx"
+      ]
+    },
+    {
+      "id": "lmstudio-community/gemma-4-E4B-it-MLX-5bit",
+      "downloads": 1086576,
+      "likes": 6,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx"
+      ]
+    },
+    {
+      "id": "unsloth/Z-Image-Turbo-GGUF",
+      "downloads": 1063372,
+      "likes": 288,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "downloads": 1026145,
+      "likes": 438,
+      "last_modified": "",
+      "quant": "BF16",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+      "downloads": 1011275,
+      "likes": 1267,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
+      "downloads": 1007596,
+      "likes": 1249,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+      "downloads": 991798,
+      "likes": 169,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "downloads": 985757,
+      "likes": 475,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "bartowski/MiMo-V2.6-Distill-Qwen-9B-GGUF",
+      "downloads": 983292,
+      "likes": 163,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+      "downloads": 973321,
+      "likes": 880,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "bartowski/Qwen2.5-32B-Instruct-GGUF",
+      "downloads": 943067,
+      "likes": 91,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/Gemma-4-31B-IT-NVFP4",
+      "downloads": 915351,
+      "likes": 586,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+      "downloads": 892007,
+      "likes": 130,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "conversational"
+      ]
+    },
+    {
+      "id": "google/gemma-4-12B-it-qat-q4_0-gguf",
+      "downloads": 878896,
+      "likes": 369,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "google/gemma-4-12B-it-qat-w4a16-ct",
+      "downloads": 878782,
+      "likes": 72,
+      "last_modified": "",
+      "quant": "QAT",
+      "tags": [
+        "safetensors"
+      ]
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "downloads": 861461,
+      "likes": 251,
+      "last_modified": "",
+      "quant": "BF16",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/GLM-5.3-Flash-GGUF",
+      "downloads": 831270,
+      "likes": 504,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "downloads": 787735,
+      "likes": 481,
+      "last_modified": "",
+      "quant": "QAT",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "nvidia/Qwen3.6-27B-NVFP4",
+      "downloads": 783182,
+      "likes": 446,
+      "last_modified": "",
+      "quant": "NVFP4",
+      "tags": [
+        "safetensors",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+      "downloads": 779104,
+      "likes": 52,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+      "downloads": 733015,
+      "likes": 57,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Inkling-Small-GGUF",
+      "downloads": 721598,
+      "likes": 98,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Muse-Glimmer-30B-GGUF",
+      "downloads": 668094,
+      "likes": 577,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+      "downloads": 653437,
+      "likes": 20,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf",
+        "conversational"
+      ]
+    },
+    {
+      "id": "unsloth/Qwen-Image-Edit-2511-GGUF",
+      "downloads": 651133,
+      "likes": 644,
+      "last_modified": "",
+      "quant": "GGUF",
+      "tags": [
+        "gguf"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3.5-9B-MLX-4bit",
+      "downloads": 634131,
+      "likes": 8,
+      "last_modified": "",
+      "quant": "MLX",
+      "tags": [
+        "safetensors",
+        "mlx",
+        "conversational"
+      ]
+    }
+  ],
+  "quant_distribution": {
+    "base": {
+      "count": 325,
+      "pct": 53.5
+    },
+    "GGUF": {
+      "count": 197,
+      "pct": 32.4
+    },
+    "MLX": {
+      "count": 33,
+      "pct": 5.4
+    },
+    "NVFP4": {
+      "count": 20,
+      "pct": 3.3
+    },
+    "BF16": {
+      "count": 10,
+      "pct": 1.6
+    },
+    "FP8": {
+      "count": 9,
+      "pct": 1.5
+    },
+    "QAT": {
+      "count": 7,
+      "pct": 1.2
+    },
+    "AWQ": {
+      "count": 4,
+      "pct": 0.7
+    },
+    "INT8": {
+      "count": 1,
+      "pct": 0.2
+    },
+    "4bit": {
+      "count": 1,
+      "pct": 0.2
+    },
+    "MXFP4": {
+      "count": 1,
+      "pct": 0.2
+    }
+  },
+  "top_text_generation": [
+    {
+      "id": "Qwen/Qwen3-0.6B",
+      "downloads": 23833726,
+      "likes": 1851,
+      "quant": "base"
+    },
+    {
+      "id": "openai-community/gpt2",
+      "downloads": 21781667,
+      "likes": 3893,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-4B",
+      "downloads": 11268043,
+      "likes": 772,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-14B",
+      "downloads": 10428928,
+      "likes": 521,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-0.6B",
+      "downloads": 8188031,
+      "likes": 1310,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "downloads": 8114096,
+      "likes": 2146,
+      "quant": "base"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "downloads": 5766151,
+      "likes": 5221,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "downloads": 5732337,
+      "likes": 2458,
+      "quant": "base"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.2",
+      "downloads": 5592300,
+      "likes": 1587,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "downloads": 5222609,
+      "likes": 713,
+      "quant": "base"
+    },
+    {
+      "id": "facebook/opt-125m",
+      "downloads": 5140299,
+      "likes": 332,
+      "quant": "base"
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-9B-GGUF",
+      "downloads": 5114741,
+      "likes": 597,
+      "quant": "GGUF"
+    },
+    {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "downloads": 4833514,
+      "likes": 8610,
+      "quant": "base"
+    },
+    {
+      "id": "dphn/dolphin-2.9.1-yi-1.5-34b",
+      "downloads": 4619480,
+      "likes": 86,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "downloads": 4590606,
+      "likes": 913,
+      "quant": "base"
+    },
+    {
+      "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "downloads": 4141067,
+      "likes": 671,
+      "quant": "NVFP4"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "downloads": 4112191,
+      "likes": 4091,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-1.7B",
+      "downloads": 4092300,
+      "likes": 594,
+      "quant": "base"
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+      "downloads": 3860800,
+      "likes": 554,
+      "quant": "GGUF"
+    },
+    {
+      "id": "Qwen/Qwen2.5-3B-Instruct",
+      "downloads": 3609164,
+      "likes": 621,
+      "quant": "base"
+    },
+    {
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "downloads": 3488705,
+      "likes": 1893,
+      "quant": "base"
+    },
+    {
+      "id": "EleutherAI/pythia-160m",
+      "downloads": 3409323,
+      "likes": 64,
+      "quant": "base"
+    },
+    {
+      "id": "RadixArk/Kimi-K3-DSpark",
+      "downloads": 3341515,
+      "likes": 78,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-32B",
+      "downloads": 2901666,
+      "likes": 772,
+      "quant": "base"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "downloads": 2871750,
+      "likes": 5440,
+      "quant": "base"
+    },
+    {
+      "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "downloads": 2756289,
+      "likes": 59,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "downloads": 2577859,
+      "likes": 1029,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-14B-AWQ",
+      "downloads": 2448992,
+      "likes": 88,
+      "quant": "AWQ"
+    },
+    {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "downloads": 2418970,
+      "likes": 1742,
+      "quant": "GGUF"
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-9B-GGUF",
+      "downloads": 2393769,
+      "likes": 696,
+      "quant": "GGUF"
+    },
+    {
+      "id": "vikhyatk/moondream2",
+      "downloads": 2340092,
+      "likes": 1446,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-Reranker-4B",
+      "downloads": 2216005,
+      "likes": 187,
+      "quant": "base"
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "downloads": 2204442,
+      "likes": 2829,
+      "quant": "GGUF"
+    },
+    {
+      "id": "Qwen/Qwen3-8B-AWQ",
+      "downloads": 2157418,
+      "likes": 68,
+      "quant": "AWQ"
+    },
+    {
+      "id": "zai-org/GLM-5.3",
+      "downloads": 2074062,
+      "likes": 2311,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+      "downloads": 1966004,
+      "likes": 60,
+      "quant": "AWQ"
+    },
+    {
+      "id": "HuggingFaceTB/SmolLM2-135M",
+      "downloads": 1963823,
+      "likes": 261,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-8B",
+      "downloads": 1961301,
+      "likes": 840,
+      "quant": "base"
+    },
+    {
+      "id": "CMSManhattan/JiRackUltra_1b",
+      "downloads": 1883610,
+      "likes": 15,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-4B",
+      "downloads": 1840188,
+      "likes": 342,
+      "quant": "base"
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "downloads": 1795603,
+      "likes": 3271,
+      "quant": "base"
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+      "downloads": 1776211,
+      "likes": 206,
+      "quant": "base"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "downloads": 1640989,
+      "likes": 4742,
+      "quant": "base"
+    },
+    {
+      "id": "distilbert/distilgpt2",
+      "downloads": 1623510,
+      "likes": 661,
+      "quant": "base"
+    },
+    {
+      "id": "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+      "downloads": 1614100,
+      "likes": 27,
+      "quant": "NVFP4"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+      "downloads": 1610886,
+      "likes": 140,
+      "quant": "BF16"
+    },
+    {
+      "id": "Qwen/Qwen3-Reranker-0.6B",
+      "downloads": 1595032,
+      "likes": 427,
+      "quant": "base"
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-35B-GGUF",
+      "downloads": 1542980,
+      "likes": 1064,
+      "quant": "GGUF"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1",
+      "downloads": 1485789,
+      "likes": 14410,
+      "quant": "base"
+    },
+    {
+      "id": "ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
+      "downloads": 1477827,
+      "likes": 433,
+      "quant": "GGUF"
+    }
+  ]
+}

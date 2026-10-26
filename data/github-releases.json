@@ -1,0 +1,951 @@
+{
+  "_source": "api.github.com",
+  "_fetched_at": "2026-10-26T07:25:39.951558+00:00",
+  "_authenticated": true,
+  "groups": {
+    "agent_skill": [
+      {
+        "repo": "anthropics/claude-code",
+        "desc": "AI 編碼 agent CLI",
+        "releases": [
+          {
+            "tag": "v2.1.310",
+            "published": "2026-10-23",
+            "prerelease": false,
+            "body": "## What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too - Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them - Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value - Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again - Fixed file read permission prompts not showing where a symbolic link leads - Fixed a question's auto-continue",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310"
+          },
+          {
+            "tag": "v2.1.309",
+            "published": "2026-10-22",
+            "prerelease": false,
+            "body": "## What's changed - Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command - Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink - Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config` - Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions - Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open - Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the `cd` is wrapped or prefixed, as they do for a plain `cd` - Fixed an ",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
+          },
+          {
+            "tag": "v2.1.308",
+            "published": "2026-10-22",
+            "prerelease": false,
+            "body": "## What's changed - Bug fixes and reliability improvements",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308"
+          }
+        ],
+        "stars": 153396,
+        "forks": 26039,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-25T20:11:26Z",
+        "created_at": "2025-02-22T17:41:21Z",
+        "license": null,
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "open_issues": 15692
+      },
+      {
+        "repo": "openclaw/openclaw",
+        "desc": "OpenClaw 執行閘道",
+        "releases": [
+          {
+            "tag": "v2026.10.7",
+            "published": "2026-10-24",
+            "prerelease": false,
+            "body": "## 2026.10.7 ### Highlights - **Replay-safe session recovery:** interrupted sessions now retain recovery provenance and unfinished tool outcomes, stopped conversations retire terminal recovery residue before accepting the next message, rejected Claude CLI drafts stay out of final replies, large child-completion batches stay within requester context, and Codex previews no longer block replies after a context refresh. (#153728, #168764, #172068, #177716, #176682, #176783, #176675, #159715, #181801) Thanks @zhangguiping-xydt, @ruel225, @Oliver4Spot, @jjjhenriksen, @enki, @PennyVibe, @mbelinky, @RomneyDa, and @krjcolby-svg. - **Safer update activation and recovery:** verified activations remain successful through later maintenance or ledger errors, interrupted package updates resume safely, po",
+            "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7"
+          },
+          {
+            "tag": "v2026.9.34",
+            "published": "2026-10-24",
+            "prerelease": false,
+            "body": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is [2026.10.6](https://github.com/openclaw/openclaw/releases#release-v2026.10.6) ## 2026.9.34 ### Highlights - **Safer agent file edits:** `apply_patch` now validates an ordered envelope before mutating the workspace, so a later invalid hunk cannot delete files changed by an earlier operation. (#160409) Thanks @masatohoshino, @obviyus, and @RomneyDa. - **More reliable managed upgrades:** app-owned updates now converge official plugins alongside core and retain repair diagnostics. Fixes",
+            "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.34"
+          },
+          {
+            "tag": "v2026.10.6",
+            "published": "2026-10-22",
+            "prerelease": false,
+            "body": "## 2026.10.6 ### Highlights - **Patched Node runtime required:** OpenClaw now requires Node 24.22.1+ on the 24 line or 26.12.1+ on the 26 line, which reject TLS chains signed with the compromised certificate keys addressed in the October 2026 Node.js security releases. Docker images ship Node 24.22.1, installers select the patched runtimes, and `openclaw update` refuses with recovery guidance before installing on an older Node instead of breaking the running install. Source builds now pin pnpm 12.15.0. (#179992) Thanks @joshavant. - **Safer updates and recovery:** package swaps now refuse unsafe service states, Windows and macOS package-manager updates recover from platform-specific failures, and frozen Gateway startup owners can be retired cleanly. (#171101, #170940, #171936, #171678) Tha",
+            "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.6"
+          }
+        ],
+        "stars": 393089,
+        "forks": 82622,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-26T07:24:27Z",
+        "created_at": "2025-11-24T10:16:47Z",
+        "license": "MIT",
+        "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+        "open_issues": 7841
+      },
+      {
+        "repo": "chatart-ai/skill",
+        "desc": "ChatArt Skill 多模態工具包",
+        "releases": [],
+        "stars": 0,
+        "forks": 1,
+        "language": "Python",
+        "pushed_at": "2026-10-23T07:17:31Z",
+        "created_at": "2026-03-24T05:55:34Z",
+        "license": "Apache-2.0",
+        "description": "Modular AI toolkit for video & image generation — text-to-video, image-to-video, AI image generation and editing, character replacement.",
+        "open_issues": 0
+      },
+      {
+        "repo": "modelcontextprotocol/servers",
+        "desc": "MCP 官方 server 集合",
+        "releases": [
+          {
+            "tag": "v2.1.0",
+            "published": "2026-10-25",
+            "prerelease": false,
+            "body": "## Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` and `@modelcontextprotocol/server-everything` to 2.0.1, and `mcp-server-fetch` to 2026.10.24. | Package | Affected | Fixed in | | --- | --- | --- | | `@modelcontextprotocol/server-filesystem` | 1.0.0 through 2.0.0, and date versions through 2026.8.31 | 2.0.1 | | `@modelcontextprotocol/server-everything` | 1.0.0 through 2.0.0, and date versions 2025.9.24 through 2026.8.31 | 2.0.1 | | `mcp-server-fetch` | through 2026.10.19 | 2026.10.24 | ### `@modelcontextprotocol/server-filesystem` 2.0.1 * **Writes stay inside the directory that was checked** (Linux and macOS). A parent directory swapped for a symlink between the access check and the write can no longer redirect `write_f",
+            "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0"
+          },
+          {
+            "tag": "v2.0.0",
+            "published": "2026-10-19",
+            "prerelease": false,
+            "body": "## Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. ## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `2.0.0` | npm | **published** | | `@modelcontextprotocol/server-filesystem` | `2.0.0` | npm | **published** | | `@modelcontextprotocol/server-memory` | `2.0.0` | npm | **published** | | `@modelcontextprotocol/server-sequential-thinking` | `2.0.0` | npm | **published** | | `mcp-server-fetch` | `2026.10.19` | PyPI | **published** | | `mcp-server-git` | `2026.10.19` | PyPI | **published** | | `mcp-server-time` | `2026.10.19` | PyPI | **published** | Release ledger: [v2/chore/5159-release-v2.0.0](https:",
+            "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0"
+          },
+          {
+            "tag": "v1.0.0",
+            "published": "2026-10-11",
+            "prerelease": false,
+            "body": "## Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. ## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-filesystem` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-memory` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-sequential-thinking` | `1.0.0` | npm | **published** | | `mcp-server-fetch` | `2026.10.10` | PyPI | **published** | | `mcp-server-git` | `2026.10.10` | PyPI | **published** | | `mcp-server-time` | `2026.10.10` | PyPI | **published** | Release ledger: [v2/chore/5080-release-v1.0.0-sdk1](https://claude.ai/ar",
+            "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0"
+          }
+        ],
+        "stars": 91567,
+        "forks": 11867,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-25T05:26:36Z",
+        "created_at": "2024-11-19T01:10:17Z",
+        "license": "NOASSERTION",
+        "description": "Model Context Protocol Servers",
+        "open_issues": 151
+      },
+      {
+        "repo": "modelcontextprotocol/modelcontextprotocol",
+        "desc": "MCP 規格",
+        "releases": [
+          {
+            "tag": "2026-07-28",
+            "published": "2026-07-28",
+            "prerelease": false,
+            "body": "This release marks the **stable release** of the `2026-07-28` revision of the Model Context Protocol. The specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2026-07-28). For a detailed overview of changes, see [2026-07-28 changelog](https://modelcontextprotocol.io/specification/2026-07-28/changelog).",
+            "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2026-07-28"
+          },
+          {
+            "tag": "2026-07-28-RC",
+            "published": "2026-05-29",
+            "prerelease": true,
+            "body": "This release marks the **release candidate (RC)** `2026-07-28` revision of the Model Context Protocol. The specification is available in [draft form](https://modelcontextprotocol.io/specification/draft). For a detailed overview of changes, see [2026-07-28 draft changelog](https://modelcontextprotocol.io/specification/draft/changelog). >[!NOTE] >**To users and implementers:** this specification is not final. Changes may be introduced between the RC and the final release. SDKs will adopt this version at their own pace, and the prior version of the spec may remain in use for an undetermined amount of time. > >Refer to the [Version Negotiation documentation](https://modelcontextprotocol.io/specification/draft/basic/lifecycle#version-negotiation) to learn about the process for clients and serve",
+            "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2026-07-28-RC"
+          },
+          {
+            "tag": "2025-11-25",
+            "published": "2025-11-25",
+            "prerelease": false,
+            "body": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol. The specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25). For a detailed overview of changes, see [2025-11-25 changelog](https://modelcontextprotocol.io/specification/2025-11-25/changelog).",
+            "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25"
+          }
+        ],
+        "stars": 9533,
+        "forks": 1883,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-26T07:10:25Z",
+        "created_at": "2024-09-24T20:26:52Z",
+        "license": "NOASSERTION",
+        "description": "Specification and documentation for the Model Context Protocol",
+        "open_issues": 115
+      },
+      {
+        "repo": "anthropics/skills",
+        "desc": "Anthropic 官方 Agent Skills",
+        "releases": [],
+        "stars": 183831,
+        "forks": 21749,
+        "language": "Python",
+        "pushed_at": "2026-10-09T18:45:52Z",
+        "created_at": "2025-09-22T15:53:31Z",
+        "license": null,
+        "description": "Public repository for Agent Skills",
+        "open_issues": 1438
+      },
+      {
+        "repo": "obra/superpowers",
+        "desc": "社群 skills 框架",
+        "releases": [
+          {
+            "tag": "v7.0.1",
+            "published": "2026-10-21",
+            "prerelease": false,
+            "body": "This release retunes brainstorming after its rebuild in v7.0.0. Many of you told us, rightly, that the new default questions got annoying fast and felt formulaic. Brainstorming now digs for context before it asks anything, and tries to ask better questions. We expect to keep tuning it, but we think it's better than it was. It also trims three long skills so they better survive compaction on Claude Code, and changes the issue and PR templates to ask for a summary written by a human. ### Brainstorming - **It digs for context first.** In an existing project, or when you point it at a spec, plan, or files, it reads them before its first message and doesn't ask what they already answer. (#2560) - **It tries to ask better questions.** v7.0.0 opened every session the same way: an offer to skip th",
+            "url": "https://github.com/obra/superpowers/releases/tag/v7.0.1"
+          },
+          {
+            "tag": "v7.0.0",
+            "published": "2026-10-10",
+            "prerelease": false,
+            "body": "We rebuilt brainstorming from scratch so it does a much better job of what it was always for: helping you work out what you actually want and put it into words before anything gets built. The new skill asks you to describe what you're after and why, plays back what it heard so you can correct it, and keeps asking good questions until the picture is clear. Then it matches the process to the work, from just doing it to writing a full design. This release also adds a native plugin manifest for the Antigravity Marketplace and fixes Windows hook discovery, Git Bash paths, Hermes skill descriptions, and several smaller bugs. ### Brainstorming - **Brainstorming draws out what you want before it proposes anything.** Its first message offers to skip the questions and asks one open question about a ",
+            "url": "https://github.com/obra/superpowers/releases/tag/v7.0.0"
+          },
+          {
+            "tag": "v6.4.2",
+            "published": "2026-09-25",
+            "prerelease": false,
+            "body": "`writing-plans` produces leaner plans, faster. Plans now record the decisions an implementer needs (signatures, test assertions, the spec's values) instead of writing out the code. Some frontier models, including Opus 5.5, could get overzealous during plan writing and, with certain prompting, would sometimes try to implement the entire project while designing the plan. The new skill keeps planning focused on the plan. When we reproduced the original report, the scratch builds went away, and plans took a quarter of the time and about a third of the tokens. Thanks to Harper Reed for the report and session bundle. (#2333) ### Writing Plans - **A plan records decisions. It's not a transcript of the code.** \"What a Step Contains\" replaces the \"No Placeholders\" section. A test step names the tes",
+            "url": "https://github.com/obra/superpowers/releases/tag/v6.4.2"
+          }
+        ],
+        "stars": 305211,
+        "forks": 27184,
+        "language": "Shell",
+        "pushed_at": "2026-10-23T03:48:57Z",
+        "created_at": "2025-10-09T19:45:18Z",
+        "license": "MIT",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "open_issues": 367
+      },
+      {
+        "repo": "google-gemini/gemini-cli",
+        "desc": "Gemini CLI",
+        "releases": [
+          {
+            "tag": "v0.67.0-nightly.20261025.gcd1b45c2d",
+            "published": "2026-10-25",
+            "prerelease": true,
+            "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261024.gcd1b45c2d...v0.67.0-nightly.20261025.gcd1b45c2d",
+            "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261025.gcd1b45c2d"
+          },
+          {
+            "tag": "v0.67.0-nightly.20261024.gcd1b45c2d",
+            "published": "2026-10-24",
+            "prerelease": true,
+            "body": "## What's Changed * fix(cli): stop continuation stream processing and auto-nudge after request cancellation by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29868 * fix(cli): correct Thai and Lao SARA AM display width by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29883 * fix(core): resolve relative file paths against active IDE workspace root by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29838 * feat(cli): add models command and --list-models flag for model discovery by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29880 * fix(cli): convert Claude hook timeout from seconds to milliseconds during migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29899 ",
+            "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261024.gcd1b45c2d"
+          },
+          {
+            "tag": "v0.67.0-nightly.20261023.ga713410ab",
+            "published": "2026-10-23",
+            "prerelease": true,
+            "body": "## What's Changed * fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834 * fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828 * fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849 * fix(cli): preserve ${VAR} placeholders during deprecated settings migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29867 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261022.g09d81bf",
+            "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab"
+          }
+        ],
+        "stars": 108394,
+        "forks": 14838,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-26T00:37:50Z",
+        "created_at": "2025-04-17T17:04:31Z",
+        "license": "Apache-2.0",
+        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "open_issues": 783
+      },
+      {
+        "repo": "cline/cline",
+        "desc": "Cline agent",
+        "releases": [
+          {
+            "tag": "sdk/sdk/v0.2.0",
+            "published": "2026-10-26",
+            "prerelease": false,
+            "body": "- Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever - A turn whose connection drops after the model has streamed only reasoning is now retried, and the partial reasoning is discarded. Turns with text, media or tool calls are still never retried ",
+            "url": "https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0"
+          },
+          {
+            "tag": "desktop-v0.0.49",
+            "published": "2026-10-26",
+            "prerelease": false,
+            "body": "- A new **Changes** button in the session header shows the session's line counts and opens a pane listing the files changed in the last turn or across the whole session, with a diff of each. When a turn finishes, a summary under it lists the files it changed; click it to open the pane on that turn - A **project files panel** (folder button in the session header) shows a file tree beside the conversation, with a read-only tabbed viewer, git status letters, and a marker on files the session changed. Files the agent edited get a File/Diff toggle. Works on local and SSH environments - An integrated **terminal panel** opens at the bottom of the window (toggle with Ctrl+backtick) - Pull request status moved from the bar above the composer into a header button. Its menu shows the PR title, merge ",
+            "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.49"
+          },
+          {
+            "tag": "cli-v3.0.74",
+            "published": "2026-10-26",
+            "prerelease": false,
+            "body": "- Opening a task that's already running in another Cline app now attaches to that run instead of starting a second one that couldn't be stopped. If an app closes mid-task, requests waiting on it now fail with a clear message instead of hanging - `cline hub status` and `cline doctor` no longer hang on a Hub that has frozen. Its health check now times out after 3s and the Hub is reported as not running - A turn whose connection drops after the model has streamed only reasoning (for example, \"The socket connection was closed unexpectedly\") is now retried instead of ending the run - Model requests retry at most 3 times instead of 5 - Kimi K3 now gets `max` reasoning for Extra High and Max, instead of an `xhigh` setting it rejects - Gemini API keys (the `gemini` provider) no longer send native ",
+            "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.74"
+          }
+        ],
+        "stars": 70856,
+        "forks": 7752,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-26T05:46:16Z",
+        "created_at": "2024-07-06T07:28:10Z",
+        "license": "Apache-2.0",
+        "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+        "open_issues": 1712
+      },
+      {
+        "repo": "continuedev/continue",
+        "desc": "Continue agent",
+        "releases": [
+          {
+            "tag": "v2.1.0-vscode",
+            "published": "2026-06-19",
+            "prerelease": true,
+            "body": "",
+            "url": "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode"
+          },
+          {
+            "tag": "v2.0.0-vscode",
+            "published": "2026-06-19",
+            "prerelease": false,
+            "body": "",
+            "url": "https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode"
+          },
+          {
+            "tag": "v1.3.40-vscode",
+            "published": "2026-06-15",
+            "prerelease": true,
+            "body": "Pre-release of the Continue VS Code extension (final-release cleanup).",
+            "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode"
+          }
+        ],
+        "stars": 36324,
+        "forks": 5522,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-25T19:22:27Z",
+        "created_at": "2023-05-24T03:39:39Z",
+        "license": "Apache-2.0",
+        "description": "open-source coding agent",
+        "open_issues": 877
+      },
+      {
+        "repo": "sst/opencode",
+        "desc": "opencode agent",
+        "releases": [
+          {
+            "tag": "v1.19.4",
+            "published": "2026-10-22",
+            "prerelease": false,
+            "body": "## Core ### Improvements - Upgraded the bundled Bun runtime to 1.4.4, which includes [security fixes](https://bun.com/blog/bun-v1.4.4#security) for Brotli, TLS, HTTP/1.1, HTTP/2, HTTP/3, WebSocket, and `fetch`, and updates root certificates to NSS 3.131.1.",
+            "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.4"
+          },
+          {
+            "tag": "v1.19.3",
+            "published": "2026-10-16",
+            "prerelease": false,
+            "body": "## Core ### Improvements - Configure model reasoning options to generate reasoning variants, replacing catalog variants while preserving your configured variant overrides.",
+            "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.3"
+          },
+          {
+            "tag": "v1.19.2",
+            "published": "2026-10-16",
+            "prerelease": false,
+            "body": "## Core ### Bugfixes - OpenCode 1 now stays on the 1.x release line: update checks use only the npm `opencode-ai` latest version, so 1.x installs are never offered a 2.x build as a regular update. - Upgrading to OpenCode 2 remains a separate, explicit choice through the 2.0 offer in `/update` or `opencode upgrade --major`. - Fix upgrades for installs managed by yarn. - Skip 1.x updates for Homebrew Core installs, which now track OpenCode 2, and check tap and Chocolatey availability before offering an update. - The install script refuses to install 2.x versions.",
+            "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.2"
+          }
+        ],
+        "stars": 221658,
+        "forks": 29638,
+        "language": "TypeScript",
+        "pushed_at": "2026-10-26T07:24:49Z",
+        "created_at": "2025-04-30T20:08:00Z",
+        "license": "MIT",
+        "description": "The open source coding agent.",
+        "open_issues": 3802
+      },
+      {
+        "repo": "Aider-AI/aider",
+        "desc": "aider",
+        "releases": [
+          {
+            "tag": "v0.86.0",
+            "published": "2025-08-09",
+            "prerelease": false,
+            "body": "- Added support for all GPT-5 models. - Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names. - Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner. - `/clear` now prints “All chat history cleared.” so you know it worked, by Zexin Yuan. - `/undo` output now shows only the first line of each commit message, making it easier to read. - Added support for `openrouter/moonshotai/kimi-k2` model, by Jack Harrington. - Display model announcements with no-arg `/model` command. - Fixed an issue where new settings for an existing model didn't replace the old ones, by Andrew Grigorev. - Fixed analytics to support the latest PostHog SDK event-capture API. - Bumped dependencies to pick up latest litellm==1.75.0. - Aider wrote 88% of",
+            "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0"
+          },
+          {
+            "tag": "v0.85.0",
+            "published": "2025-06-27",
+            "prerelease": false,
+            "body": "#### New Models - Added support for new Gemini models including `gemini-2.5-pro`, `gemini-2.5-flash`, and `gemini-2.5-pro-preview-06-05` with thinking tokens support. - Updated model aliases: `flash` now points to `gemini-2.5-flash` and `gemini` now points to `gemini-2.5-pro`. - Support for Responses API models like o1-pro, o3-pro. - Added support for OpenAI o3-pro model across multiple providers. - Enhanced thinking tokens support: can now be disabled by setting to 0, and improved help text with examples. - Increased max tokens for Deepseek models to 65536 for better performance. - Updated pricing for o3. #### New Features & Enhancements - Added `--add-gitignore-files` flag to enable adding files listed in .gitignore to Aider's editing scope, by omarcinkonis. - Co-authored-by attribution ",
+            "url": "https://github.com/Aider-AI/aider/releases/tag/v0.85.0"
+          },
+          {
+            "tag": "v0.84.0",
+            "published": "2025-05-30",
+            "prerelease": false,
+            "body": "## Model support & provider updates - Added support for new Claude models including the Sonnet 4 and Opus 4 series (e.g., `claude-sonnet-4-20250514`, `claude-opus-4-20250514`) across various providers. The default `sonnet` and `opus` aliases were updated to these newer versions. - Added support for the `vertex_ai/gemini-2.5-flash-preview-05-20` model. - Updated default OpenRouter models during onboarding to `deepseek/deepseek-r1:free` for the free tier and `anthropic/claude-sonnet-4` for paid tiers. - Automatically refresh GitHub Copilot tokens when used as OpenAI API keys, by Lih Chen. ## Core functionality improvements - Fixed an issue where files explicitly added via the command line were not correctly ignored if listed in `.gitignore`. - Improved automatic commit messages by providing ",
+            "url": "https://github.com/Aider-AI/aider/releases/tag/v0.84.0"
+          }
+        ],
+        "stars": 49756,
+        "forks": 5108,
+        "language": "Python",
+        "pushed_at": "2026-05-22T14:02:20Z",
+        "created_at": "2023-05-09T18:57:49Z",
+        "license": "Apache-2.0",
+        "description": "aider is AI pair programming in your terminal",
+        "open_issues": 1945
+      },
+      {
+        "repo": "BerriAI/litellm",
+        "desc": "LLM 統一 gateway",
+        "releases": [
+          {
+            "tag": "v1.106.4",
+            "published": "2026-10-25",
+            "prerelease": false,
+            "body": "## Verify this release ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.106.4 ``` Same command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images ## What's new in 1.106.4 3 PRs. 2 fixed. No action needed to upgrade ### Changes - **Deployment:** Fixed the proxy sometimes exiting on startup with an `ImportError` when it cannot reach the remote model cost map, broken since v1.104.0 (#46711) <sup>Also in [1.104.7](https://github.com/BerriAI/litellm/releases/tag/v1.104.7), [1.105.5](https://github.com/BerriAI/litellm/releases/tag/v1.105.5)</sup> - **Deployment:** Fixed image scans flagging brotli 1.2.0, the emSign ECC Root CA - G3 and unused lockfile packa",
+            "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.4"
+          },
+          {
+            "tag": "v1.105.5",
+            "published": "2026-10-25",
+            "prerelease": false,
+            "body": "## Verify this release ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.105.5 ``` Same command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images ## What's new in 1.105.5 2 PRs. 2 fixed. No action needed to upgrade ### Changes - **Deployment:** Fixed the proxy sometimes exiting on startup with an `ImportError` when it cannot reach the remote model cost map, broken since v1.104.0 (#46711) <sup>Also in [1.104.7](https://github.com/BerriAI/litellm/releases/tag/v1.104.7), [1.106.4](https://github.com/BerriAI/litellm/releases/tag/v1.106.4)</sup> - **Deployment:** Fixed image scans flagging brotli 1.2.0, the emSign ECC Root CA - G3 and unused lockfile packa",
+            "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.5"
+          },
+          {
+            "tag": "v1.104.7",
+            "published": "2026-10-25",
+            "prerelease": false,
+            "body": "## Verify this release ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.104.7 ``` Same command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images ## What's new in 1.104.7 2 PRs. 2 fixed. No action needed to upgrade ### Changes - **Deployment:** Fixed the proxy sometimes exiting on startup with an `ImportError` when it cannot reach the remote model cost map, broken since v1.104.0 (#46711) <sup>Also in [1.105.5](https://github.com/BerriAI/litellm/releases/tag/v1.105.5), [1.106.4](https://github.com/BerriAI/litellm/releases/tag/v1.106.4)</sup> - **Deployment:** Fixed image scans flagging brotli 1.2.0, the emSign ECC Root CA - G3 and unused lockfile packa",
+            "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.7"
+          }
+        ],
+        "stars": 62045,
+        "forks": 12679,
+        "language": "Python",
+        "pushed_at": "2026-10-26T07:13:11Z",
+        "created_at": "2023-07-27T00:09:52Z",
+        "license": "NOASSERTION",
+        "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+        "open_issues": 5709
+      },
+      {
+        "repo": "microsoft/vscode-copilot-chat",
+        "desc": "VS Code Copilot Chat",
+        "releases": [
+          {
+            "tag": "v0.43.0",
+            "published": "2026-04-07",
+            "prerelease": false,
+            "body": "",
+            "url": "https://github.com/microsoft/vscode-copilot-chat/releases/tag/v0.43.0"
+          },
+          {
+            "tag": "v0.43.2026040705",
+            "published": "2026-04-07",
+            "prerelease": true,
+            "body": "## Changes: * #5036: nes: clipping strategy is AroundEditRange This list of changes was [auto generated](https://dev.azure.com/monacotools/Monaco/_build/results?buildId=428359&view=logs).",
+            "url": "https://github.com/microsoft/vscode-copilot-chat/releases/tag/v0.43.2026040705"
+          },
+          {
+            "tag": "v0.43.2026040702",
+            "published": "2026-04-07",
+            "prerelease": true,
+            "body": "",
+            "url": "https://github.com/microsoft/vscode-copilot-chat/releases/tag/v0.43.2026040702"
+          }
+        ],
+        "stars": 9958,
+        "forks": 2029,
+        "language": "TypeScript",
+        "pushed_at": "2026-05-20T10:23:40Z",
+        "created_at": "2025-06-10T16:21:19Z",
+        "license": "MIT",
+        "description": "Copilot Chat extension for VS Code",
+        "open_issues": 250
+      }
+    ],
+    "inference": [
+      {
+        "repo": "ggml-org/llama.cpp",
+        "desc": "llama.cpp",
+        "releases": [
+          {
+            "tag": "b11889",
+            "published": "2026-10-25",
+            "prerelease": true,
+            "body": "<details open> cuda : use std::string instead of VLA for archName (#30463) * cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ``` ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName[archLen + 1]; | ^~~~~~~~~~~ ggml/src/ggml-cuda/ggml-cuda.cu:180:19: note: read of non-const variable 'archLen' is not allowed in a constant expression ggml/src/ggml-cuda/ggml-cuda.cu:179:9: note: declared here 179 | int archLen = strlen(devName); | ^ ``` Signed-off-by: Adrien Gallouët <angt@huggingface.co> * Add a comment about archName Signed-off-by: Adrien Gallouët <adrien@gallouet.fr> --------- Signed-off-by: Adrien Gallouët <angt@huggingface.co> Signed",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11889"
+          },
+          {
+            "tag": "b11888",
+            "published": "2026-10-25",
+            "prerelease": true,
+            "body": "<details open> common, grammar: add recursive depth limit, make it a requirement (#31153) * common, grammar: add recursive depth limit, make it a requirement * catch more recursive functions * common : tidy up peg parser changes * grammar : reject candidates in a loop, without a depth limit The depth limit in llama_grammar_reject_candidates_for_stack counted the code points of a vocab token, so any token of 256 chars or more was always rejected under a grammar, such as the 512-space token of GLM-4.7-Flash or the long space tokens of Laguna-S-2.1. The rejection now walks the code points with its own stack of levels instead of recursing: there is no limit and no stack risk, whatever the length of a token from the GGUF, and the masks match master. * grammar : track rejected candidates as indi",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11888"
+          },
+          {
+            "tag": "b11887",
+            "published": "2026-10-25",
+            "prerelease": true,
+            "body": "<details open> tests : adjust default threads for test-llama-context (#31157) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/59670438> **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11887/llama-b11887-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11887/llama-b11887-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11887/llama-b11887-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11887/llama-b118",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11887"
+          }
+        ],
+        "stars": 132384,
+        "forks": 24824,
+        "language": "C++",
+        "pushed_at": "2026-10-26T07:09:27Z",
+        "created_at": "2023-03-10T18:58:00Z",
+        "license": "MIT",
+        "description": "LLM inference in C/C++",
+        "open_issues": 2583
+      },
+      {
+        "repo": "ollama/ollama",
+        "desc": "Ollama",
+        "releases": [
+          {
+            "tag": "v0.40.11",
+            "published": "2026-10-24",
+            "prerelease": false,
+            "body": "## Speech Ollama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint. ```sh ollama run phonon \"Hello from Ollama.\" ``` ## d3 decision models [d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ```sh ollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\" ``` ## New Contributors * @SynapShift made their first contribution in https://github.com/ollam",
+            "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
+          },
+          {
+            "tag": "v0.40.10",
+            "published": "2026-10-23",
+            "prerelease": false,
+            "body": "## NVIDIA Nemotron 3.5 Bolt E4B [Nemotron 3.5 Bolt E4B](https://ollama.com/library/nemotron-3.5-bolt) is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10",
+            "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
+          },
+          {
+            "tag": "v0.40.9",
+            "published": "2026-10-22",
+            "prerelease": false,
+            "body": "## Flint on Linux and Windows [Flint](https://ollama.com/library/flint) now runs on Linux and Windows as well as macOS. ## Other improvements - Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. - `ollama launch` now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. - Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9",
+            "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9"
+          }
+        ],
+        "stars": 184799,
+        "forks": 18587,
+        "language": "Go",
+        "pushed_at": "2026-10-26T04:25:58Z",
+        "created_at": "2023-06-26T19:39:32Z",
+        "license": "MIT",
+        "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+        "open_issues": 4432
+      },
+      {
+        "repo": "vllm-project/vllm",
+        "desc": "vLLM",
+        "releases": [
+          {
+            "tag": "v0.32.0",
+            "published": "2026-10-18",
+            "prerelease": false,
+            "body": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466). The new `hf` tool and reasoning parser (`--tool-call-parser hf`, `--reasoning-parser hf`) reads the checkpoint's `response_template`, so models that ship it need no model-specific parser (#58604, #58602), in both the Python and Rust frontends (#59005). * **Low-precision KV cache everywhere**: NVFP4 KV cache now runs on SM8x and SM12x (#46963), SM90 (#60620) and with XQA decode on SM12x (#60452),",
+            "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+          },
+          {
+            "tag": "v0.31.0",
+            "published": "2026-10-05",
+            "prerelease": false,
+            "body": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the gate GEMM with expert selection (#56266); decoder boundaries fuse the TP all-reduce, mHC input preparation (#57643) and the MoE finalize (#58586); a fused small-batch WO-A with inverse RoPE and MXFP8 quant on SM100/SM103 (#58634); the MXFP8 `wo_b` GEMM fused with the sequence-parallel reduce-scatter (#57428); Engram `wkv` sharded across TP ranks (#58678) and Engram host tables shared across co-located DP replicas by default (#57651); encoder CUDA graphs for the vision tower (#56625); and SW",
+            "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+          },
+          {
+            "tag": "v0.30.0",
+            "published": "2026-09-22",
+            "prerelease": false,
+            "body": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram DP sharding (#56512); DeepSeek-V4-Flash-Vision-Exp (#54566), also on ROCm (#55107) and with LoRA (#55897); GLM-5.3-Flash (#53906) with EPLB (#55119); K2-Horizon (#55063); Cohere Compass (#54774); Bailing V3 VL (#55921); Nanbeige4.2 via the Transformers backend (#56071); and a DeepSeek-V4 CPU backend with AVX512/AMX sparse MLA, indexer, mHC and compressor kernels (#55355). * **Fast Start**: a persistent per-GPU weight-cache daemon holds post-quantized, TP-sharded weights in GPU memory so re",
+            "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+          }
+        ],
+        "stars": 95542,
+        "forks": 23967,
+        "language": "Python",
+        "pushed_at": "2026-10-26T07:19:44Z",
+        "created_at": "2023-02-09T11:23:20Z",
+        "license": "Apache-2.0",
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "open_issues": 9452
+      },
+      {
+        "repo": "ml-explore/mlx",
+        "desc": "MLX",
+        "releases": [
+          {
+            "tag": "v0.32.4",
+            "published": "2026-10-14",
+            "prerelease": false,
+            "body": "## What's Changed * Adding VJP for the scaled dot product attention. by @tpegolotti in https://github.com/ml-explore/mlx/pull/4563 * python: Add __pos__ support to array by @aaishwarymishra in https://github.com/ml-explore/mlx/pull/4488 * Add Python 3.15 and 3.15t support by @XXXXRT666 in https://github.com/ml-explore/mlx/pull/4555 * Add fixed size `unique` operation by @louen in https://github.com/ml-explore/mlx/pull/4501 * Fix normalizing single-element slice with negative stride by @axiom-of-choice in https://github.com/ml-explore/mlx/pull/4446 * Patch bump to 0.32.4 by @zcbenz in https://github.com/ml-explore/mlx/pull/4582 * Adding VJP for gated delta net. by @tpegolotti in https://github.com/ml-explore/mlx/pull/4565 * Fix `col_reduce_longcolumn` for negative-stride views by @mateuuszz",
+            "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.4"
+          },
+          {
+            "tag": "v0.32.3",
+            "published": "2026-09-29",
+            "prerelease": false,
+            "body": "## What's Changed * Fix scan and sort for a zero-size axis by @eyupcanakman in https://github.com/ml-explore/mlx/pull/4340 * Add a correction parameter in std and var by @prady0t in https://github.com/ml-explore/mlx/pull/4348 * Fix tests/run.py stuck in macOS CI by @zcbenz in https://github.com/ml-explore/mlx/pull/4410 * Extension Example Updated by @jagrit06 in https://github.com/ml-explore/mlx/pull/4412 * Fix sorted gather_qmm NAX row overflow above 32K by @PhilipJohnBasile in https://github.com/ml-explore/mlx/pull/3922 * Fix deadlock caused by mx.clear_streams() holding GIL by @aleroot in https://github.com/ml-explore/mlx/pull/4413 * Fix integer pow zeroing a whole SIMD vector on a negative exponent by @ayaangazali in https://github.com/ml-explore/mlx/pull/4354 * Make concurrency cap on",
+            "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
+          },
+          {
+            "tag": "v0.32.2",
+            "published": "2026-08-25",
+            "prerelease": false,
+            "body": "## What's Changed * Preserve subnormal float values when casting to bool by @reckylurker in https://github.com/ml-explore/mlx/pull/4224 * Support assigning through a bare Ellipsis index by @Adityaj0 in https://github.com/ml-explore/mlx/pull/4314 * Fix divmod truncating the quotient for floats by @ayaangazali in https://github.com/ml-explore/mlx/pull/4108 * Add force_fused option to scaled_dot_product_attention by @hojin12312 in https://github.com/ml-explore/mlx/pull/4185 * Reject a negative eps in the normalization layers by @ayaangazali in https://github.com/ml-explore/mlx/pull/4312 * Bound GGUF metadata string/array values against the file mapping by @x14ngch3n in https://github.com/ml-explore/mlx/pull/4212 * Read each K/V byte once in gqa-8 decode attention by @dudududukim in https://gi",
+            "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.2"
+          }
+        ],
+        "stars": 28941,
+        "forks": 2381,
+        "language": "C++",
+        "pushed_at": "2026-10-26T07:10:18Z",
+        "created_at": "2023-11-28T23:33:45Z",
+        "license": "MIT",
+        "description": "MLX: An array framework for Apple silicon",
+        "open_issues": 133
+      },
+      {
+        "repo": "exo-explore/exo",
+        "desc": "exo",
+        "releases": [
+          {
+            "tag": "v1.0.71",
+            "published": "2026-04-23",
+            "prerelease": false,
+            "body": "# EXO v1.0.71 Release Notes This is a small patch release, with better defaults for sampling and bug fixes for M5 series Macs and RDMA, along with support for the new Kimi K2.6. ## Models - Add Kimi K2.6, including support for multimodality ([#1952](https://github.com/exo-explore/exo/pull/1952)) - Add model cards for Qwen3.6 27B, GLM 5.1 and Kimi K2.6 quantisations ([#1970](https://github.com/exo-explore/exo/pull/1970)) ## Performance - Add recommended sampling defaults (from model providers) to improve model output quality, including min_p and top_k ([#1947](https://github.com/exo-explore/exo/pull/1947)) - Prevent JACCL all_sum from corrupting output ([#1952](https://github.com/exo-explore/exo/pull/1952)) ## Quality of Life - Add a Pi integration tab! ([#1925](https://github.com/exo-explo",
+            "url": "https://github.com/exo-explore/exo/releases/tag/v1.0.71"
+          },
+          {
+            "tag": "v1.0.70",
+            "published": "2026-04-17",
+            "prerelease": false,
+            "body": "# EXO v1.0.70 Release Notes This release ships with multimodality and major enhancements for memory usage in long context use cases (e.g. OpenClaw and OpenCode), as well as updated model support and QOL features. ## Models - Add support for Gemma 4 ([#1851](https://github.com/exo-explore/exo/pull/1851), [#1891](https://github.com/exo-explore/exo/pull/1891)) - Add support for Minimax M2.7 ([#1884](https://github.com/exo-explore/exo/pull/1884)) - Add support for Qwen3.6 ([#1907](https://github.com/exo-explore/exo/pull/1907), [#1917](https://github.com/exo-explore/exo/pull/1917)) ## Performance - Implement Flash Attention for Qwen3.5 and Gemma 4, reducing peak memory consumption by 3-6x ([#1886](https://github.com/exo-explore/exo/pull/1886)) - Fix memory leaks in Rotating and Arrays cache ([#",
+            "url": "https://github.com/exo-explore/exo/releases/tag/v1.0.70"
+          },
+          {
+            "tag": "v1.0.69",
+            "published": "2026-03-27",
+            "prerelease": false,
+            "body": "# EXO v1.0.69 Release Notes This release ships with continuous batching, Qwen3.5 support and support for M5 Pro/Max chips, as well as a host of quality of life improvements and bug fixes. **Continuous batching** is on by default, enabling you to run multiple requests in parallel for significantly higher throughput. EXO will automatically batch together inference requests, on single node and multi-node instances including RDMA instances. This is particularly useful for agentic workflows where multiple agents can run in parallel. ## Models - Add support for Qwen3.5 ([#1644](https://github.com/exo-explore/exo/pull/1644)) - Add support for Nemotron sharding ([#1693](https://github.com/exo-explore/exo/pull/1693)) - Add default model cards for DeepSeek v3.2 ([#1769](https://github.com/exo-explor",
+            "url": "https://github.com/exo-explore/exo/releases/tag/v1.0.69"
+          }
+        ],
+        "stars": 48050,
+        "forks": 3580,
+        "language": "Python",
+        "pushed_at": "2026-10-13T20:11:49Z",
+        "created_at": "2024-06-24T18:36:22Z",
+        "license": "Apache-2.0",
+        "description": "Run frontier AI locally.",
+        "open_issues": 423
+      },
+      {
+        "repo": "sgl-project/sglang",
+        "desc": "SGLang",
+        "releases": [
+          {
+            "tag": "v0.5.22",
+            "published": "2026-10-19",
+            "prerelease": false,
+            "body": "# Highlights *950 PRs from 245 contributors.* ## New models | Model | Type | Cookbook | |---|---|---| | Clef / Clef Flash | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/Cloudflare/clef) | | PPLX-Decider v1 / v1.1 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/Perplexity/PPLX-Decider-v1.1-27B) | | EmbeddingGemma 2 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/Google/EmbeddingGemma2) | | LLaDA2.2 | LLM / VLM | | | HunyuanImage-3.0-Instruct | Diffusion | [link](https://docs.sglang.io/cookbook/diffusion/Tencent/HunyuanImage3) | | Kandinsky 6 / Kandinsky 6 SR | Diffusion | [link](https://docs.sglang.io/cookbook/diffusion/Kandinsky/Kandinsky6) | | Wan-Animate-2 | Diffusion | [link](https://docs.sglang.io/cookbook/diffusion/Wan/Wan-A",
+            "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22"
+          },
+          {
+            "tag": "v0.5.21",
+            "published": "2026-10-02",
+            "prerelease": false,
+            "body": "# Highlights *779 PRs from 227 contributors.* ## New models | Model | Type | Cookbook | |---|---|---| | DeepSeek-V4.1 Flash | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4_1) | | GigaChat 3.5 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/GigaChat/GigaChat3.5) | | IQuest-Q1 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/IQuestLab/IQuest-Q1) | | MiMo-V2.6 / MiMo-V2.6-Pro | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/Xiaomi/MiMo-V2.6) | | Ling-3.0-flash-VL | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/InclusionAI/Ling-3.0-flash-VL) | | DiffusionGemma | Diffusion | [link](https://docs.sglang.io/cookbook/autoregressive/Google/DiffusionGemma) | | Qwen-Image 2.1 | Diffus",
+            "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+          },
+          {
+            "tag": "v0.5.20",
+            "published": "2026-09-18",
+            "prerelease": false,
+            "body": "# Highlights *713 PRs from 237 contributors.* **New models in this release** (see the [cookbook](https://docs.sglang.io/cookbook) for all supported models): | Model | Type | PRs | Cookbook | |---|---|---|---| | GLM-5.3-Flash | Autoregressive | [#36507](https://github.com/sgl-project/sglang/pull/36507), [#38621](https://github.com/sgl-project/sglang/pull/38621) | [link](https://docs.sglang.io/cookbook/autoregressive/GLM/GLM-5.3-Flash) | | Hy4-Preview | Autoregressive | [#36805](https://github.com/sgl-project/sglang/pull/36805) | [link](https://docs.sglang.io/cookbook/autoregressive/Tencent/Hy4-Preview) | | Qwen3.8-Flash-Next | Autoregressive | [#37500](https://github.com/sgl-project/sglang/pull/37500) | [link](https://docs.sglang.io/cookbook/autoregressive/Qwen/Qwen3.8-Flash-Next) | | K2 Ho",
+            "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20"
+          }
+        ],
+        "stars": 38177,
+        "forks": 9890,
+        "language": "Python",
+        "pushed_at": "2026-10-26T07:24:38Z",
+        "created_at": "2024-01-08T04:15:52Z",
+        "license": "Apache-2.0",
+        "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+        "open_issues": 6172
+      },
+      {
+        "repo": "Mozilla-Ocho/llamafile",
+        "desc": "llamafile",
+        "releases": [
+          {
+            "tag": "0.10.6",
+            "published": "2026-09-15",
+            "prerelease": false,
+            "body": "## What's Changed * Update llama.cpp to b10441 by @aittalam in https://github.com/mozilla-ai/llamafile/pull/1043 * llamafile_open_zip: validate the zip entry window against the actual file size by @professor-moody in https://github.com/mozilla-ai/llamafile/pull/1039 * fix(zip): guard extra-field header read before bounds are known by @shoemoney in https://github.com/mozilla-ai/llamafile/pull/1044 * fix(build): add missing link recipes for llama-bench, quantize, imatrix and perplexity by @dexhunter in https://github.com/mozilla-ai/llamafile/pull/1034 * fix(build): compile the ggml objects with -DNDEBUG by @aittalam in https://github.com/mozilla-ai/llamafile/pull/1050 * Enable -DGGML_CUDA_USE_GRAPHS / -DGGML_HIP_GRAPHS by @aittalam in https://github.com/mozilla-ai/llamafile/pull/1051 * fix(g",
+            "url": "https://github.com/mozilla-ai/llamafile/releases/tag/0.10.6"
+          },
+          {
+            "tag": "0.10.5",
+            "published": "2026-08-03",
+            "prerelease": false,
+            "body": "## What's Changed 0.10.5 is a release that focused on making the \"sync with upstream llama.cpp\" task simpler and better. In the span of 2 weeks we performed three syncs and took advantage of these iterations to improve the llamafile skill/plugin for AI agents. The result is a better process that provides more reliable code, requiring fewer iterations to go from an auto-generated draft PR to the final merged code. As a byproduct, llamafile now supports very recent models such as [Ternary Bonsai 27B](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) and [Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1). Thanks to our community's contributions, this release also brings significant documentation updates clarifying the new help system, the difference between different lllamafi",
+            "url": "https://github.com/mozilla-ai/llamafile/releases/tag/0.10.5"
+          },
+          {
+            "tag": "0.10.4",
+            "published": "2026-07-16",
+            "prerelease": false,
+            "body": "## What's Changed The most exciting feature that this release of llamafile brings is the first version of transcribefile! 🎉 Our transcribefile is nothing more than a cosmocc-build of the CLI tool from [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp), @cjpais' ggml-based Speech-to-Text library that supports 16+ model families 💙 For more details, see CJ's [post](https://workshop.cjpais.com/projects/transcribe-cpp) and Mozilla.ai's [annoucement](https://blog.mozilla.ai/announcing-transcribe-cpp/). In addition to this, a new sync with upstream llama.cpp (which will be soon replaced by a more recent one, as I let too much time pass before the release 😬); few improvements to Vulkan and ROCm acceleration; HTTPS support (both for the server and to download models from HF given th",
+            "url": "https://github.com/mozilla-ai/llamafile/releases/tag/0.10.4"
+          }
+        ],
+        "stars": 26489,
+        "forks": 1663,
+        "language": "C++",
+        "pushed_at": "2026-10-12T00:26:41Z",
+        "created_at": "2023-09-10T21:12:32Z",
+        "license": "NOASSERTION",
+        "description": "Distribute and run LLMs with a single file.",
+        "open_issues": 216
+      }
+    ],
+    "training": [
+      {
+        "repo": "unslothai/unsloth",
+        "desc": "Unsloth",
+        "releases": [
+          {
+            "tag": "v0.1.910-beta",
+            "published": "2026-10-23",
+            "prerelease": false,
+            "body": "Recursive's Flint, MOSS-Image and NVIDIA's Nemotron Bolt 4B are here! Run them locally in Unsloth. Also new: a chat-only Unsloth Desktop install, MLX MoE models bigger than your Mac's memory and an OpenAI-compatible fine-tuning API. ## Highlights - **Bigger MoE models on Mac**: MLX MoE models too big for memory keep experts on SSD, so Qwen3.8-Flash-Next runs on a 32 GB Mac. - **Chat-only install**: a much smaller Unsloth Desktop for GGUF chat; add training later in Settings. - **Flint**: Recursive's 40B coding-agent MoE, runs in 24 GB at 3-bit [Guide](https://unsloth.ai/docs/models/flint) - **MOSS-Image**: 5.1B image model designed for top-tier generation [GGUF](https://huggingface.co/unsloth/MOSS-Image-SFT-GGUF) + [FP8](https://huggingface.co/unsloth/MOSS-Image-SFT-FP8) - **NVIDIA Nemotro",
+            "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.910-beta"
+          },
+          {
+            "tag": "v0.1.909-beta",
+            "published": "2026-10-19",
+            "prerelease": false,
+            "body": "DeepSeek-V4.1-Flash-1017 and FLUX.3 Image Klein are here! Run both locally in Unsloth. Also new: images and videos in chat, multi-GPU training with FSDP2 (alpha) and one-command MCP setup for coding agents. ## Highlights - **DeepSeek-V4.1-Flash-1017**: 552B (16B active) - runs on ~125 GB at 1-bit with its Engram table on SSD [Guide](https://unsloth.ai/docs/models/deepseek-v4.1-flash) - **FLUX.3 Image Klein**: Runs on 24 GB and edits with up to 10 reference images [GGUF](https://huggingface.co/unsloth/flux-3-image-klein-GGUF) - **One-command MCP setup**: `unsloth mcp add` connects Claude Code, Codex or Cursor to Unsloth. - **Images and videos in chat**: Local chat models use the image or video model loaded beside them. - **Qwen-Image-Edit-2509 and 2511**: Edit with up to 3 images at once. -",
+            "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.909-beta"
+          },
+          {
+            "tag": "v0.1.908-beta",
+            "published": "2026-10-15",
+            "prerelease": false,
+            "body": "Run NVIDIA's new Nemotron 3.5 models and Meta's new Muse Spark Open locally in Unsloth. New: text-diffusion LLMs, DeepSpeed training and better prompt caching for coding agents. ## Highlights - **NVIDIA Nemotron 3.5 Bolt**: Run on 24 GB of memory. [Guide](https://unsloth.ai/docs/models/nemotron-3.5-bolt) - **NVIDIA Nemotron 3.5 Super VL**: 120B (12B active) [Guide](https://unsloth.ai/docs/models/nemotron-3.5-super-vl) - **Meta Muse Spark Open**: 816B (42.7B active) - runs on 256GB [Guide](https://unsloth.ai/docs/models/muse-spark-open) - **Better prompt caching for coding agents**: Claude Code, Codex etc. on local GGUF models re-process far less of each prompt. - **Browser use**: Always allow properly works, cursor, and separate tabs for each chat. - **Images through your connections**: ge",
+            "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta"
+          }
+        ],
+        "stars": 78573,
+        "forks": 7290,
+        "language": "Python",
+        "pushed_at": "2026-10-26T07:22:04Z",
+        "created_at": "2023-11-29T16:50:09Z",
+        "license": "Apache-2.0",
+        "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+        "open_issues": 342
+      },
+      {
+        "repo": "axolotl-ai-cloud/axolotl",
+        "desc": "Axolotl",
+        "releases": [
+          {
+            "tag": "v0.21.0",
+            "published": "2026-10-16",
+            "prerelease": false,
+            "body": "# Axolotl v0.21.0 Release Notes 59 commits since v0.20.0 (September 30, 2026). This release is headlined by Reflection's Beam, a 501B-parameter MoE you can QLoRA-tune on a single node. We also added native diffusion language model training, image datasets for DPO, KTO, and GRPO, and optimizations for the training loop. --- ## Highlights ### **Reflection Beam** You can now fine-tune Reflection's Beam, a 501B-parameter MoE with 23B active parameters, using QLoRA on a single 8xH200 node. QLoRA configs ship for FSDP2 and `device_map`, plus expert-parallel LoRA recipes for B200 in bf16, NVFP4, and NF4. [Get started with the Beam guide](https://docs.axolotl.ai/docs/models/beam.html). - Contributed by @HamidShojanazeri and @winglian in #4148, and @NanoCode012 in #4163. ### **Native Diffusion LM T",
+            "url": "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.21.0"
+          },
+          {
+            "tag": "v0.20.0",
+            "published": "2026-09-30",
+            "prerelease": false,
+            "body": "# Axolotl v0.20.0 Release Notes There has been 67 commits since v0.19.0 (September 10, 2026). We have added a bunch of features including GGUF export, Ringmaster context parallelism, native NVFP4 LoRA, and expert parallelism without DeepEP. Python 3.12 and torch 2.13.0 are now the minimums, and FSDP1 is removed. --- ## Highlights ### **GGUF Export** You can now convert a trained checkpoint to GGUF for llama.cpp, Ollama, LM Studio, and llamafile with `axolotl export config.yml --quantize Q4_K_M,Q8_0`, which emits the base conversion plus one file per requested quant type. [See the guide](https://docs.axolotl.ai/docs/export.html). - Contributed by @ved1beta in #3950. ### **Context Parallelism with Ringmaster** You can now train long-context runs with packed sequences under Ulysses, Ring, or ",
+            "url": "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.20.0"
+          },
+          {
+            "tag": "v0.19.0",
+            "published": "2026-09-10",
+            "prerelease": false,
+            "body": "# Axolotl v0.19.0 Release Notes 72 commits since v0.18.0 (July 17, 2026). We have a variety of changes this release including a new declarative model-support system, seven new model families plus ternary (BitNet b1.58) QAT, two new optimizers, a big chat-template tokenization speedup, and PyTorch 2.13 support. --- ## Highlights ### **Declarative Model Support Profiles** Adding a new architecture used to mean edits scattered across the loaders. A model now picks a family template (`VANILLA_CAUSAL_LM`, `IMAGE_TEXT_TO_TEXT`) and declares only what makes it different. Existing descriptors keep working, and there are no config changes. [See the guide](https://github.com/axolotl-ai-cloud/axolotl/blob/main/docs/agents/new_model_support.md). - Contributed by @thad0ctor in #3869 and @winglian in #3",
+            "url": "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0"
+          }
+        ],
+        "stars": 12632,
+        "forks": 1469,
+        "language": "Python",
+        "pushed_at": "2026-10-26T03:35:46Z",
+        "created_at": "2023-04-14T04:25:47Z",
+        "license": "Apache-2.0",
+        "description": "Go ahead and axolotl questions",
+        "open_issues": 248
+      },
+      {
+        "repo": "huggingface/trl",
+        "desc": "TRL",
+        "releases": [
+          {
+            "tag": "v1.16.0",
+            "published": "2026-10-15",
+            "prerelease": false,
+            "body": "## Features ### 🛠️ TRL now trains on AWS Trainium <img width=\"1672\" height=\"941\" alt=\"Neon Warehouse_ AWS and Trainium Support\" src=\"https://github.com/user-attachments/assets/dcb6e2a1-0f7c-4635-819b-a1ec6f5e143b\" /> The fused LM head from v1.15 is what made Neuron tractable; the remaining gaps are closed here. There is a [guide](https://huggingface.co/docs/trl/neuron) to go with it. Neuron recompiles once per input shape, so an unpadded run stalls about a minute on every new sequence length. `pad_to_multiple_of` now defaults to `\"auto\"`: 128 on Neuron, `None` elsewhere, so nothing changes on GPU. Trainium2, Qwen3-0.6B SFT, 20 steps: **130 s with the default against 260 s without**. * Add a guide for training on AWS Trainium by @qgallouedec in https://github.com/huggingface/trl/pull/7729 *",
+            "url": "https://github.com/huggingface/trl/releases/tag/v1.16.0"
+          },
+          {
+            "tag": "v1.15.0",
+            "published": "2026-10-08",
+            "prerelease": false,
+            "body": "<img width=\"1672\" height=\"941\" alt=\"Neon-Gripped Industrial Valve\" src=\"https://github.com/user-attachments/assets/329793d4-cef1-49ae-9ab6-5b1387d13071\" /> ## Features ### ⚡ Fused LM head: up to 6.9× longer sequences on the same GPU SFT, DPO, KTO, GRPO, RLOO and Distillation now score tokens with a **fused LM head**: a Triton kernel projects the hidden states through the LM head in tiles and reduces to per-token log-probs and entropy directly, so the `[batch, seq, vocab]` logits tensor is never built. It is **on by default**, there is nothing to turn on. **Max trainable sequence length** (gemma-3-1b, 262k vocabulary, 79 GiB of GPU memory, bf16, batch size 1, gradient checkpointing, sdpa): | Trainer | v1.14.2 | v1.15.0 | | | --- | --- | --- | --- | | DPO | 10,240 | **59,392** | **5.80×** | ",
+            "url": "https://github.com/huggingface/trl/releases/tag/v1.15.0"
+          },
+          {
+            "tag": "v1.14.2",
+            "published": "2026-10-06",
+            "prerelease": false,
+            "body": "Patch release fixing two cases of silently wrong training and three crashes. Worth calling out: **#7505** affects GRPO, RLOO and Distillation on the default generation path (`use_vllm=False`). Models that end a turn with an id only their generation config declares (Gemma 3/4, Phi-3.5, ...) did not stop at the end of the turn, and everything generated after it was trained on, up to `max_completion_length`. The only visible sign was `completions/clipped_ratio` close to 1. With vLLM, generation stopped correctly but the metrics were still wrong, and `mask_truncated_completions=True` dropped every finished completion. Runs on models whose tokenizer eos is their only end-of-turn id are unchanged. ## What's Changed * Keep the DFT loss finite on a batch with no trainable tokens by @albertvillanov",
+            "url": "https://github.com/huggingface/trl/releases/tag/v1.14.2"
+          }
+        ],
+        "stars": 19602,
+        "forks": 3099,
+        "language": "Python",
+        "pushed_at": "2026-10-26T06:14:11Z",
+        "created_at": "2020-03-27T10:54:55Z",
+        "license": "Apache-2.0",
+        "description": "Train transformer language models with reinforcement learning.",
+        "open_issues": 283
+      },
+      {
+        "repo": "huggingface/peft",
+        "desc": "PEFT",
+        "releases": [
+          {
+            "tag": "v0.21.2",
+            "published": "2026-10-01",
+            "prerelease": false,
+            "body": "This is a PEFT release fixes an issue that prevented encoder-decoder models to work when using Transformers ≥ 5.18.0. Changes: - #3845",
+            "url": "https://github.com/huggingface/peft/releases/tag/v0.21.2"
+          },
+          {
+            "tag": "v0.21.1",
+            "published": "2026-09-29",
+            "prerelease": false,
+            "body": "This is a small PEFT release to enable Tensor Parallel (TP) to work properly with PEFT. It requires Transformers ≥ 5.17.0 to work. Changes: * #3614 * #3790",
+            "url": "https://github.com/huggingface/peft/releases/tag/v0.21.1"
+          },
+          {
+            "tag": "v0.21.0",
+            "published": "2026-09-15",
+            "prerelease": false,
+            "body": "# Highlights <img width=\"1248\" height=\"560\" alt=\"peft-v0 21 0\" src=\"https://github.com/user-attachments/assets/c2b8b162-6564-4c7f-b5b6-130b8808ea18\" /> ## New methods ### Riemannian-preconditional LoRA optimizer Riemannian-preconditioned LoRA optimizer (#3382), contributed by @smellslikeml, is a new LoRA-specific optimizer similar to [LoRA-FA](https://huggingface.co/docs/peft/main/en/package_reference/lora#lora-fa-optimizer) or [LoRA+](https://huggingface.co/docs/peft/main/en/package_reference/lora#lora-optimized-lora) that applies a Riemannian pre-conditioning on the gradients to improve feature learning and avoiding separate tuning of learning rates for LoRA's A and B matrices. ### LoRA variant: Knowledge-Aware Singular-Value Adaption (KaSA) [KaSA](https://huggingface.co/docs/peft/main/e",
+            "url": "https://github.com/huggingface/peft/releases/tag/v0.21.0"
+          }
+        ],
+        "stars": 21851,
+        "forks": 2622,
+        "language": "Python",
+        "pushed_at": "2026-10-26T04:35:32Z",
+        "created_at": "2022-11-25T03:51:09Z",
+        "license": "Apache-2.0",
+        "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+        "open_issues": 98
+      }
+    ],
+    "tools": [
+      {
+        "repo": "comfyanonymous/ComfyUI",
+        "desc": "ComfyUI",
+        "releases": [
+          {
+            "tag": "v0.42.1",
+            "published": "2026-10-19",
+            "prerelease": false,
+            "body": "Fix some crashing issues a few users experienced when running the MOSS image template workflow.",
+            "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
+          },
+          {
+            "tag": "v0.42.0",
+            "published": "2026-10-18",
+            "prerelease": false,
+            "body": "## What's Changed * [Partner Nodes] feat(Krea): add Krea 3 Image node by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17067 * Update workflow templates to v0.11.85 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/17068 * Use FLUX 3 Image in node display labels by @MaanavD in https://github.com/Comfy-Org/ComfyUI/pull/17075 * Better documentation about the comfy quant format. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17078 * Update workflow templates to v0.11.86 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/17083 * feat: Add MOSS-image support by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/17095 * [Partner Nodes] chore(Quiver): remove retired Arrow 1.x models by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17102 *",
+            "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
+          },
+          {
+            "tag": "v0.41.0",
+            "published": "2026-10-15",
+            "prerelease": false,
+            "body": "## What's Changed * Add ImageSDRToHDR node. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16990 * feat: Add a core route for the default workflow (CORE-340) by @alexisrolland in https://github.com/Comfy-Org/ComfyUI/pull/16956 * Add ReferenceMultiLatent node. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17009 * Disable the LoRA stack nodes until the frontend supports DynamicGroup by @jaeone94 in https://github.com/Comfy-Org/ComfyUI/pull/17050 * Improve ReferenceMultiLatent UX a bit. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17053 * Revert \"Disable the LoRA stack nodes until the frontend supports DynamicGroup\" by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17054 * Support MiniMax-H3 LightVAE by @kijai in https://gith",
+            "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0"
+          }
+        ],
+        "stars": 143047,
+        "forks": 16882,
+        "language": "Python",
+        "pushed_at": "2026-10-26T06:46:31Z",
+        "created_at": "2023-01-17T03:15:56Z",
+        "license": "GPL-3.0",
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "open_issues": 5350
+      },
+      {
+        "repo": "huggingface/transformers",
+        "desc": "Transformers",
+        "releases": [
+          {
+            "tag": "v5.20.2",
+            "published": "2026-10-19",
+            "prerelease": false,
+            "body": "# Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside `prepare_inputs_for_generation` in `generate`, leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: - Fix inputs dict casting in generate (#49731) by @Cyrilvallez - Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsdp_size (#49688) by @qgallouedec - Declare the input modalities of the VLMs that report text only (#49677) by @qgallouedec - Avoid a host-to-device copy in eager_mask (#49684) by @hmellor",
+            "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+          },
+          {
+            "tag": "v5.20.1",
+            "published": "2026-10-16",
+            "prerelease": false,
+            "body": "# Release v5.20.1 Special surprise including the new model Beam from Reflection AI :partying_face: <img width=\"2912\" height=\"1440\" alt=\"Gemini_Generated_Image_ox4hjlox4hjlox4h\" src=\"https://github.com/user-attachments/assets/bfc7ff16-4340-490c-925c-b1512e4ceb32\" /> Beam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their specific needs. **Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/beam) * Fix small bug in auto mappings (#49664) by @yonigozlan in [#49664](https://github.com/huggingface/transformers/pull/49664) ## Some real patch fixes We broke loading models on older torch versions :cry: sh",
+            "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+          },
+          {
+            "tag": "v5.20.0",
+            "published": "2026-10-15",
+            "prerelease": false,
+            "body": "# Release v5.20.0 ## New Model additions ### Muse Spark Open <img width=\"2400\" height=\"1296\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bf34ea27-0edf-4ded-ba6f-905b04096126\" /> Muse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters (42B active per token) and a context window of up to 1,048,576 tokens shared across modalities. It is trained for agentic coding tasks such as multi-file editing, debugging, and tool use. Checkpoints are available in BF16 and NVFP4 formats. **Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/muse_spark) | [Blog Post](http://hf.co/blog/meta-muse-spark-open) * Add Muse Spark Open (#49644) by @guarin in [",
+            "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
+          }
+        ],
+        "stars": 168170,
+        "forks": 34991,
+        "language": "Python",
+        "pushed_at": "2026-10-26T07:23:03Z",
+        "created_at": "2018-10-29T13:56:00Z",
+        "license": "Apache-2.0",
+        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+        "open_issues": 1004
+      },
+      {
+        "repo": "ggml-org/whisper.cpp",
+        "desc": "whisper.cpp",
+        "releases": [
+          {
+            "tag": "v1.9.5",
+            "published": "2026-10-06",
+            "prerelease": false,
+            "body": "## Overview Maintenance release. Updates to [ggml v0.26.0](https://github.com/ggml-org/ggml/releases/tag/v0.26.0). **Nightly build:** [b5454](https://github.com/ggml-org/whisper.cpp/releases/tag/b5454) **More info:** [dist : releases and versioning of ggml-org projects](https://github.com/ggml-org/ggml/discussions/1579) ## Changelog since v1.9.4 d1be6fde whisper : bump version to 1.9.5 (#4102) 4afec37b talk-llama : update llama.cpp to v0.6.0 3d451abe sync : ggml 47f1c7dc ggml : bump version to 0.26.0 (ggml/1652) e71b7844 CUDA: make the alloc_deps check batch independent (llama/29986) cdc87302 vulkan: fix Flash Attention shmem write out of bounds (llama/29988) 563a9f7a vulkan: revert mul_mat_id tile selection PR #29182 (llama/29936) ebb8a170 cuda: use the vector lightning indexer kernel on ",
+            "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5"
+          },
+          {
+            "tag": "b5454",
+            "published": "2026-10-06",
+            "prerelease": true,
+            "body": "",
+            "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/b5454"
+          },
+          {
+            "tag": "v1.9.4",
+            "published": "2026-09-11",
+            "prerelease": false,
+            "body": "## Overview New version has been released. **Nightly build:** [b5130](https://github.com/ggml-org/whisper.cpp/releases/tag/b5130) **More info:** [dist : releases and versioning of ggml-org projects](https://github.com/ggml-org/ggml/discussions/1579) ## Changelog since v1.9.3 927cfce3 metal : remove leftover ggml-metal.metal kernels file (#4051) dd80eb2a scripts : use sed instead of grep for version parsing [no ci] (#4052) 1fa6dfa0 ci : update WoA CUDA 13.4 to use 13.4.1 GA (#4053) a2b36eb6 whisper : bump version to 1.9.4 (#4050) 6fb4cd67 ci : add Windows On ARM support to release job (#4048) c44b60b8 whisper : call encoder_begin_callback before language auto-detect (#3936) 6d0ed914 whisper : re-seed decoder 0 between calls (#4025) cec4dbe5 ci : update close-issue job to not close issues (#",
+            "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.4"
+          }
+        ],
+        "stars": 54675,
+        "forks": 6240,
+        "language": "C++",
+        "pushed_at": "2026-10-19T14:14:00Z",
+        "created_at": "2022-09-25T18:26:37Z",
+        "license": "MIT",
+        "description": "Port of OpenAI's Whisper model in C/C++",
+        "open_issues": 364
+      }
+    ]
+  }
+}
